@@ -213,7 +213,7 @@
                 <?php foreach ($hot as $a ) :?>
                 <article class="style4">
                 <iframe
-                      width="500"
+                      width="455"
                       height="315"
                       src="<?= $a->youtube; ?>"
                       title="YouTube video player"
