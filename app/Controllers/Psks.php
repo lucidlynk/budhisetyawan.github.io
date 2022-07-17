@@ -314,7 +314,7 @@ class Psks extends BaseController
             //tampilan datatable
             $this->builder->select('id_ppks,nik,nama,tmp_lahir,tgl_lahir,jk,alamat,kecamatan,desa,nama_pmks,username,tahun');
             $this->builder->join('users', 'ppks.data_user = users.id');
-            $this->builder->join('pmks', 'ppks.id_pmks = pmks.id_pmks');
+            $this->builder->join('pmks', 'tb_psks.id_psks = psks.id_psks');
             if ($psks!=0) {
                 $this->builder->where('tb_psks.id_psks',$psks);
             }
