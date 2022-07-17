@@ -51,8 +51,8 @@ $routes->group('ppks',['filter' => 'role:admin,user'], function($routes) {
     $routes->get('data', 'Ppks::data');
     $routes->get('tampil', 'Ppks::tampil');
 });
-$routes->get('/ppks/rekap', 'Ppks::rekap',['filter'=>'role:admin']);
-$routes->get('/ppks/rekap/index', 'Ppks::rekap',['filter'=>'role:admin']);
+$routes->get('/ppks/rekap', 'Ppks::rekap',['filter'=>'role:admin,user']);
+$routes->get('/ppks/rekap/index', 'Ppks::rekap',['filter'=>'role:admin,user']);
 
 /*
  * --------------------------------------------------------------------
