@@ -312,9 +312,9 @@ class Psks extends BaseController
             // $q = $this->db->query("SELECT DISTINCT berkas,usul_kis.created_at AS pengajuan, COUNT(id_usul) AS jml FROM usul_kis INNER JOIN users ON usul_kis.userid=users.id WHERE users.id={$idk} GROUP BY berkas ORDER BY usul_kis.created_at DESC;");
             // $data['tampilhapus'] = $q->getResultArray();
             //tampilan datatable
-            $this->builder->select('id_pks,nik,nama,tmp_lahir,tgl_lahir,jk,alamat,kecamatan,desa,nama_pmks,username,tahun');
+            $this->builder->select('id_pks,nik,nama,tmp_lahir,tgl_lahir,jk,alamat,kecamatan,desa,nama_psks,username,tahun');
             $this->builder->join('users', 'tb_psks.data_user = users.id');
-            $this->builder->join('pmks', 'tb_psks.id_psks = psks.id_psks');
+            $this->builder->join('psks', 'tb_psks.id_psks = psks.id_psks');
             if ($psks!=0) {
                 $this->builder->where('tb_psks.id_psks',$psks);
             }
