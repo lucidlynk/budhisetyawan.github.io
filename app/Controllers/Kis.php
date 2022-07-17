@@ -162,6 +162,8 @@ class Kis extends BaseController
         
         if (user()->id==8) {
             //fungsi untuk deleteall berdasarkan lampiran berkas
+            // create query set session sql mode
+            $this->db->query('SET SESSION sql_mode = "TRADITIONAL"');
             $q = $this->db->query("SELECT DISTINCT berkas,usul_kis.created_at AS pengajuan, COUNT(id_usul) AS jml, username FROM usul_kis INNER JOIN users ON usul_kis.userid=users.id GROUP BY berkas ORDER BY usul_kis.created_at DESC  LIMIT 0, 10;");
             $data['tampilhapus'] = $q->getResultArray();
             //tampilan datatable
@@ -173,6 +175,7 @@ class Kis extends BaseController
         }else{
             //fungsi untuk deleteall berdasarkan lampiran berkas
             $idk=user()->id;
+            $this->db->query('SET SESSION sql_mode = "TRADITIONAL"');
             $q = $this->db->query("SELECT DISTINCT berkas,usul_kis.created_at AS pengajuan, COUNT(id_usul) AS jml FROM usul_kis INNER JOIN users ON usul_kis.userid=users.id WHERE users.id={$idk} GROUP BY berkas ORDER BY usul_kis.created_at DESC LIMIT 0, 10;");
             $data['tampilhapus'] = $q->getResultArray();
             //tampilan datatable
