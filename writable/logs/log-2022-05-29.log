@@ -1,0 +1,154 @@
+CRITICAL - 2022-05-29 00:09:36 --> unlink(file/Open this select menu): No such file or directory
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'unlink(file/Ope...', 'C:\\xampp\\htdocs...', 219, Array)
+#1 C:\xampp\htdocs\puskessoscgt\app\Controllers\Kis.php(219): unlink('file/Open this ...')
+#2 C:\xampp\htdocs\puskessoscgt\vendor\codeigniter4\framework\system\CodeIgniter.php(832): App\Controllers\Kis->deleteall()
+#3 C:\xampp\htdocs\puskessoscgt\vendor\codeigniter4\framework\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Kis))
+#4 C:\xampp\htdocs\puskessoscgt\vendor\codeigniter4\framework\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\xampp\htdocs\puskessoscgt\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#6 C:\xampp\htdocs\puskessoscgt\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#7 {main}
+CRITICAL - 2022-05-29 00:12:20 --> unlink(file/Open this select menu): No such file or directory
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'unlink(file/Ope...', 'C:\\xampp\\htdocs...', 220, Array)
+#1 C:\xampp\htdocs\puskessoscgt\app\Controllers\Kis.php(220): unlink('file/Open this ...')
+#2 C:\xampp\htdocs\puskessoscgt\vendor\codeigniter4\framework\system\CodeIgniter.php(832): App\Controllers\Kis->deleteall()
+#3 C:\xampp\htdocs\puskessoscgt\vendor\codeigniter4\framework\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Kis))
+#4 C:\xampp\htdocs\puskessoscgt\vendor\codeigniter4\framework\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\xampp\htdocs\puskessoscgt\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#6 C:\xampp\htdocs\puskessoscgt\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#7 {main}
+CRITICAL - 2022-05-29 01:14:49 --> Class 'App\Models\PrioritasModel' not found
+#0 C:\xampp\htdocs\puskessoscgt\vendor\codeigniter4\framework\system\CodeIgniter.php(809): App\Controllers\Kis->__construct()
+#1 C:\xampp\htdocs\puskessoscgt\vendor\codeigniter4\framework\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->createController()
+#2 C:\xampp\htdocs\puskessoscgt\vendor\codeigniter4\framework\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\puskessoscgt\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 C:\xampp\htdocs\puskessoscgt\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#5 {main}
+CRITICAL - 2022-05-29 01:15:31 --> Class 'App\Models\PrioritasModel' not found
+#0 C:\xampp\htdocs\puskessoscgt\vendor\codeigniter4\framework\system\CodeIgniter.php(809): App\Controllers\Kis->__construct()
+#1 C:\xampp\htdocs\puskessoscgt\vendor\codeigniter4\framework\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->createController()
+#2 C:\xampp\htdocs\puskessoscgt\vendor\codeigniter4\framework\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\puskessoscgt\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 C:\xampp\htdocs\puskessoscgt\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#5 {main}
+CRITICAL - 2022-05-29 01:16:14 --> Class 'App\Models\PrioritasModel' not found
+#0 C:\xampp\htdocs\puskessoscgt\vendor\codeigniter4\framework\system\CodeIgniter.php(809): App\Controllers\Kis->__construct()
+#1 C:\xampp\htdocs\puskessoscgt\vendor\codeigniter4\framework\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->createController()
+#2 C:\xampp\htdocs\puskessoscgt\vendor\codeigniter4\framework\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\puskessoscgt\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 C:\xampp\htdocs\puskessoscgt\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#5 {main}
+CRITICAL - 2022-05-29 01:16:15 --> Class 'App\Models\PrioritasModel' not found
+#0 C:\xampp\htdocs\puskessoscgt\vendor\codeigniter4\framework\system\CodeIgniter.php(809): App\Controllers\Kis->__construct()
+#1 C:\xampp\htdocs\puskessoscgt\vendor\codeigniter4\framework\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->createController()
+#2 C:\xampp\htdocs\puskessoscgt\vendor\codeigniter4\framework\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\puskessoscgt\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 C:\xampp\htdocs\puskessoscgt\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#5 {main}
+CRITICAL - 2022-05-29 01:16:16 --> Class 'App\Models\PrioritasModel' not found
+#0 C:\xampp\htdocs\puskessoscgt\vendor\codeigniter4\framework\system\CodeIgniter.php(809): App\Controllers\Kis->__construct()
+#1 C:\xampp\htdocs\puskessoscgt\vendor\codeigniter4\framework\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->createController()
+#2 C:\xampp\htdocs\puskessoscgt\vendor\codeigniter4\framework\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\puskessoscgt\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 C:\xampp\htdocs\puskessoscgt\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#5 {main}
+CRITICAL - 2022-05-29 01:17:35 --> Class 'App\Models\PrioritasModel' not found
+#0 C:\xampp\htdocs\puskessoscgt\vendor\codeigniter4\framework\system\CodeIgniter.php(809): App\Controllers\Kis->__construct()
+#1 C:\xampp\htdocs\puskessoscgt\vendor\codeigniter4\framework\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->createController()
+#2 C:\xampp\htdocs\puskessoscgt\vendor\codeigniter4\framework\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\puskessoscgt\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 C:\xampp\htdocs\puskessoscgt\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#5 {main}
+ERROR - 2022-05-29 01:48:36 --> Column 'id_usul' in field list is ambiguous
+CRITICAL - 2022-05-29 01:48:36 --> Column 'id_usul' in field list is ambiguous
+#0 C:\xampp\htdocs\puskessoscgt\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php(292): mysqli->query('SELECT `id_usul...', 0)
+#1 C:\xampp\htdocs\puskessoscgt\vendor\codeigniter4\framework\system\Database\BaseConnection.php(670): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `id_usul...')
+#2 C:\xampp\htdocs\puskessoscgt\vendor\codeigniter4\framework\system\Database\BaseConnection.php(598): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `id_usul...')
+#3 C:\xampp\htdocs\puskessoscgt\vendor\codeigniter4\framework\system\Database\BaseBuilder.php(1455): CodeIgniter\Database\BaseConnection->query('SELECT `id_usul...', Array, false)
+#4 C:\xampp\htdocs\puskessoscgt\app\Controllers\Kis.php(185): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\xampp\htdocs\puskessoscgt\vendor\codeigniter4\framework\system\CodeIgniter.php(832): App\Controllers\Kis->cek_usul()
+#6 C:\xampp\htdocs\puskessoscgt\vendor\codeigniter4\framework\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Kis))
+#7 C:\xampp\htdocs\puskessoscgt\vendor\codeigniter4\framework\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\puskessoscgt\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 C:\xampp\htdocs\puskessoscgt\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#10 {main}
+CRITICAL - 2022-05-29 02:14:55 --> Undefined property: stdClass::$berkas
+#0 C:\xampp\htdocs\puskessoscgt\app\Views\kis\DataUsulan.php(165): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined prope...', 'C:\\xampp\\htdocs...', 165, Array)
+#1 C:\xampp\htdocs\puskessoscgt\vendor\codeigniter4\framework\system\View\View.php(210): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\puskessoscgt\vendor\codeigniter4\framework\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\puskessoscgt\vendor\codeigniter4\framework\system\Common.php(1089): CodeIgniter\View\View->render('kis/DataUsulan', Array, true)
+#4 C:\xampp\htdocs\puskessoscgt\app\Controllers\Kis.php(190): view('kis/DataUsulan', Array)
+#5 C:\xampp\htdocs\puskessoscgt\vendor\codeigniter4\framework\system\CodeIgniter.php(832): App\Controllers\Kis->cek_usul()
+#6 C:\xampp\htdocs\puskessoscgt\vendor\codeigniter4\framework\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Kis))
+#7 C:\xampp\htdocs\puskessoscgt\vendor\codeigniter4\framework\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\puskessoscgt\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 C:\xampp\htdocs\puskessoscgt\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#10 {main}
+ERROR - 2022-05-29 02:54:51 --> You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '= '2022-05-28'
+AND `usul_kis`.`created_at` <= = '2022-05-31'
+AND `usul_kis`.`...' at line 5
+CRITICAL - 2022-05-29 02:54:51 --> You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '= '2022-05-28'
+AND `usul_kis`.`created_at` <= = '2022-05-31'
+AND `usul_kis`.`...' at line 5
+#0 C:\xampp\htdocs\puskessoscgt\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php(292): mysqli->query('SELECT `id_usul...', 0)
+#1 C:\xampp\htdocs\puskessoscgt\vendor\codeigniter4\framework\system\Database\BaseConnection.php(670): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `id_usul...')
+#2 C:\xampp\htdocs\puskessoscgt\vendor\codeigniter4\framework\system\Database\BaseConnection.php(598): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `id_usul...')
+#3 C:\xampp\htdocs\puskessoscgt\vendor\codeigniter4\framework\system\Database\BaseBuilder.php(1455): CodeIgniter\Database\BaseConnection->query('SELECT `id_usul...', Array, false)
+#4 C:\xampp\htdocs\puskessoscgt\app\Controllers\Kis.php(185): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\xampp\htdocs\puskessoscgt\vendor\codeigniter4\framework\system\CodeIgniter.php(832): App\Controllers\Kis->cek_usul()
+#6 C:\xampp\htdocs\puskessoscgt\vendor\codeigniter4\framework\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Kis))
+#7 C:\xampp\htdocs\puskessoscgt\vendor\codeigniter4\framework\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\puskessoscgt\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 C:\xampp\htdocs\puskessoscgt\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#10 {main}
+ERROR - 2022-05-29 09:22:24 --> Error connecting to the database: No connection could be made because the target machine actively refused it.
+
+CRITICAL - 2022-05-29 09:22:24 --> Unable to connect to the database.
+Main connection [MySQLi]: No connection could be made because the target machine actively refused it.
+
+#0 C:\xampp\htdocs\puskessoscgt\vendor\codeigniter4\framework\system\Database\BaseConnection.php(577): CodeIgniter\Database\BaseConnection->initialize()
+#1 C:\xampp\htdocs\puskessoscgt\vendor\codeigniter4\framework\system\Database\BaseBuilder.php(1455): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#2 C:\xampp\htdocs\puskessoscgt\vendor\codeigniter4\framework\system\Model.php(210): CodeIgniter\Database\BaseBuilder->get()
+#3 C:\xampp\htdocs\puskessoscgt\vendor\codeigniter4\framework\system\BaseModel.php(622): CodeIgniter\Model->doFirst()
+#4 C:\xampp\htdocs\puskessoscgt\vendor\myth\auth\src\Authentication\LocalAuthenticator.php(156): CodeIgniter\BaseModel->first()
+#5 C:\xampp\htdocs\puskessoscgt\vendor\myth\auth\src\Authentication\LocalAuthenticator.php(20): Myth\Auth\Authentication\LocalAuthenticator->validate(Array, true)
+#6 C:\xampp\htdocs\puskessoscgt\vendor\myth\auth\src\Controllers\AuthController.php(88): Myth\Auth\Authentication\LocalAuthenticator->attempt(Array, false)
+#7 C:\xampp\htdocs\puskessoscgt\vendor\codeigniter4\framework\system\CodeIgniter.php(832): Myth\Auth\Controllers\AuthController->attemptLogin()
+#8 C:\xampp\htdocs\puskessoscgt\vendor\codeigniter4\framework\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(Myth\Auth\Controllers\AuthController))
+#9 C:\xampp\htdocs\puskessoscgt\vendor\codeigniter4\framework\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 C:\xampp\htdocs\puskessoscgt\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#11 C:\xampp\htdocs\puskessoscgt\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#12 {main}
+ERROR - 2022-05-29 09:58:05 --> Unknown column 'slug' in 'where clause'
+CRITICAL - 2022-05-29 09:58:05 --> Unknown column 'slug' in 'where clause'
+#0 C:\xampp\htdocs\puskessoscgt\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php(292): mysqli->query('SELECT *\nFROM `...', 0)
+#1 C:\xampp\htdocs\puskessoscgt\vendor\codeigniter4\framework\system\Database\BaseConnection.php(670): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *\nFROM `...')
+#2 C:\xampp\htdocs\puskessoscgt\vendor\codeigniter4\framework\system\Database\BaseConnection.php(598): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *\nFROM `...')
+#3 C:\xampp\htdocs\puskessoscgt\vendor\codeigniter4\framework\system\Database\BaseBuilder.php(1455): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 C:\xampp\htdocs\puskessoscgt\vendor\codeigniter4\framework\system\Model.php(210): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\xampp\htdocs\puskessoscgt\vendor\codeigniter4\framework\system\BaseModel.php(622): CodeIgniter\Model->doFirst()
+#6 C:\xampp\htdocs\puskessoscgt\app\Models\PrioritasModel.php(50): CodeIgniter\BaseModel->first()
+#7 C:\xampp\htdocs\puskessoscgt\app\Controllers\Kis.php(278): App\Models\PrioritasModel->getPrioritas('940')
+#8 C:\xampp\htdocs\puskessoscgt\vendor\codeigniter4\framework\system\CodeIgniter.php(832): App\Controllers\Kis->batal('940')
+#9 C:\xampp\htdocs\puskessoscgt\vendor\codeigniter4\framework\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Kis))
+#10 C:\xampp\htdocs\puskessoscgt\vendor\codeigniter4\framework\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#11 C:\xampp\htdocs\puskessoscgt\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#12 C:\xampp\htdocs\puskessoscgt\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#13 {main}
+CRITICAL - 2022-05-29 10:02:24 --> unlink(file/940): No such file or directory
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'unlink(file/940...', 'C:\\xampp\\htdocs...', 281, Array)
+#1 C:\xampp\htdocs\puskessoscgt\app\Controllers\Kis.php(281): unlink('file/940')
+#2 C:\xampp\htdocs\puskessoscgt\vendor\codeigniter4\framework\system\CodeIgniter.php(832): App\Controllers\Kis->batal('940')
+#3 C:\xampp\htdocs\puskessoscgt\vendor\codeigniter4\framework\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Kis))
+#4 C:\xampp\htdocs\puskessoscgt\vendor\codeigniter4\framework\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\xampp\htdocs\puskessoscgt\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#6 C:\xampp\htdocs\puskessoscgt\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#7 {main}
+CRITICAL - 2022-05-29 10:04:10 --> unlink(file/941): No such file or directory
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'unlink(file/941...', 'C:\\xampp\\htdocs...', 280, Array)
+#1 C:\xampp\htdocs\puskessoscgt\app\Controllers\Kis.php(280): unlink('file/941')
+#2 C:\xampp\htdocs\puskessoscgt\vendor\codeigniter4\framework\system\CodeIgniter.php(832): App\Controllers\Kis->batal('941')
+#3 C:\xampp\htdocs\puskessoscgt\vendor\codeigniter4\framework\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Kis))
+#4 C:\xampp\htdocs\puskessoscgt\vendor\codeigniter4\framework\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\xampp\htdocs\puskessoscgt\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#6 C:\xampp\htdocs\puskessoscgt\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#7 {main}

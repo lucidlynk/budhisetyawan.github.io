@@ -1,0 +1,98 @@
+ERROR - 2022-07-14 00:51:07 --> You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'NULL ORDER BY RAND() LIMIT 0, 3' at line 1
+CRITICAL - 2022-07-14 00:51:08 --> You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'NULL ORDER BY RAND() LIMIT 0, 3' at line 1
+#0 C:\xampp\htdocs\puskessoscgt\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php(292): mysqli->query('SELECT DISTINCT...', 0)
+#1 C:\xampp\htdocs\puskessoscgt\vendor\codeigniter4\framework\system\Database\BaseConnection.php(670): CodeIgniter\Database\MySQLi\Connection->execute('SELECT DISTINCT...')
+#2 C:\xampp\htdocs\puskessoscgt\vendor\codeigniter4\framework\system\Database\BaseConnection.php(598): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT DISTINCT...')
+#3 C:\xampp\htdocs\puskessoscgt\app\Controllers\Inovasi.php(28): CodeIgniter\Database\BaseConnection->query('SELECT DISTINCT...')
+#4 C:\xampp\htdocs\puskessoscgt\vendor\codeigniter4\framework\system\CodeIgniter.php(832): App\Controllers\Inovasi->index()
+#5 C:\xampp\htdocs\puskessoscgt\vendor\codeigniter4\framework\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Inovasi))
+#6 C:\xampp\htdocs\puskessoscgt\vendor\codeigniter4\framework\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\xampp\htdocs\puskessoscgt\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#8 C:\xampp\htdocs\puskessoscgt\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#9 {main}
+CRITICAL - 2022-07-14 01:49:11 --> syntax error, unexpected end of file
+#0 C:\xampp\htdocs\puskessoscgt\vendor\codeigniter4\framework\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#1 C:\xampp\htdocs\puskessoscgt\vendor\codeigniter4\framework\system\Common.php(1089): CodeIgniter\View\View->render('inovasi', Array, true)
+#2 C:\xampp\htdocs\puskessoscgt\app\Controllers\Inovasi.php(36): view('inovasi', Array)
+#3 C:\xampp\htdocs\puskessoscgt\vendor\codeigniter4\framework\system\CodeIgniter.php(832): App\Controllers\Inovasi->index()
+#4 C:\xampp\htdocs\puskessoscgt\vendor\codeigniter4\framework\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Inovasi))
+#5 C:\xampp\htdocs\puskessoscgt\vendor\codeigniter4\framework\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\puskessoscgt\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 C:\xampp\htdocs\puskessoscgt\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#8 {main}
+CRITICAL - 2022-07-14 01:50:03 --> syntax error, unexpected end of file
+#0 C:\xampp\htdocs\puskessoscgt\vendor\codeigniter4\framework\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#1 C:\xampp\htdocs\puskessoscgt\vendor\codeigniter4\framework\system\Common.php(1089): CodeIgniter\View\View->render('inovasi', Array, true)
+#2 C:\xampp\htdocs\puskessoscgt\app\Controllers\Inovasi.php(36): view('inovasi', Array)
+#3 C:\xampp\htdocs\puskessoscgt\vendor\codeigniter4\framework\system\CodeIgniter.php(832): App\Controllers\Inovasi->index()
+#4 C:\xampp\htdocs\puskessoscgt\vendor\codeigniter4\framework\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Inovasi))
+#5 C:\xampp\htdocs\puskessoscgt\vendor\codeigniter4\framework\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\puskessoscgt\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 C:\xampp\htdocs\puskessoscgt\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#8 {main}
+CRITICAL - 2022-07-14 01:50:04 --> syntax error, unexpected end of file
+#0 C:\xampp\htdocs\puskessoscgt\vendor\codeigniter4\framework\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#1 C:\xampp\htdocs\puskessoscgt\vendor\codeigniter4\framework\system\Common.php(1089): CodeIgniter\View\View->render('inovasi', Array, true)
+#2 C:\xampp\htdocs\puskessoscgt\app\Controllers\Inovasi.php(36): view('inovasi', Array)
+#3 C:\xampp\htdocs\puskessoscgt\vendor\codeigniter4\framework\system\CodeIgniter.php(832): App\Controllers\Inovasi->index()
+#4 C:\xampp\htdocs\puskessoscgt\vendor\codeigniter4\framework\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Inovasi))
+#5 C:\xampp\htdocs\puskessoscgt\vendor\codeigniter4\framework\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\puskessoscgt\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 C:\xampp\htdocs\puskessoscgt\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#8 {main}
+CRITICAL - 2022-07-14 01:50:15 --> syntax error, unexpected end of file
+#0 C:\xampp\htdocs\puskessoscgt\vendor\codeigniter4\framework\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#1 C:\xampp\htdocs\puskessoscgt\vendor\codeigniter4\framework\system\Common.php(1089): CodeIgniter\View\View->render('inovasi', Array, true)
+#2 C:\xampp\htdocs\puskessoscgt\app\Controllers\Inovasi.php(35): view('inovasi', Array)
+#3 C:\xampp\htdocs\puskessoscgt\vendor\codeigniter4\framework\system\CodeIgniter.php(832): App\Controllers\Inovasi->index()
+#4 C:\xampp\htdocs\puskessoscgt\vendor\codeigniter4\framework\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Inovasi))
+#5 C:\xampp\htdocs\puskessoscgt\vendor\codeigniter4\framework\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\puskessoscgt\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 C:\xampp\htdocs\puskessoscgt\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#8 {main}
+CRITICAL - 2022-07-14 01:50:16 --> syntax error, unexpected end of file
+#0 C:\xampp\htdocs\puskessoscgt\vendor\codeigniter4\framework\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#1 C:\xampp\htdocs\puskessoscgt\vendor\codeigniter4\framework\system\Common.php(1089): CodeIgniter\View\View->render('inovasi', Array, true)
+#2 C:\xampp\htdocs\puskessoscgt\app\Controllers\Inovasi.php(35): view('inovasi', Array)
+#3 C:\xampp\htdocs\puskessoscgt\vendor\codeigniter4\framework\system\CodeIgniter.php(832): App\Controllers\Inovasi->index()
+#4 C:\xampp\htdocs\puskessoscgt\vendor\codeigniter4\framework\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Inovasi))
+#5 C:\xampp\htdocs\puskessoscgt\vendor\codeigniter4\framework\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\puskessoscgt\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 C:\xampp\htdocs\puskessoscgt\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#8 {main}
+CRITICAL - 2022-07-14 01:59:06 --> Undefined variable: popularpopularcil
+#0 C:\xampp\htdocs\puskessoscgt\app\Views\inovasi.php(269): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'C:\\xampp\\htdocs...', 269, Array)
+#1 C:\xampp\htdocs\puskessoscgt\vendor\codeigniter4\framework\system\View\View.php(210): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\puskessoscgt\vendor\codeigniter4\framework\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\puskessoscgt\vendor\codeigniter4\framework\system\Common.php(1089): CodeIgniter\View\View->render('inovasi', Array, true)
+#4 C:\xampp\htdocs\puskessoscgt\app\Controllers\Inovasi.php(36): view('inovasi', Array)
+#5 C:\xampp\htdocs\puskessoscgt\vendor\codeigniter4\framework\system\CodeIgniter.php(832): App\Controllers\Inovasi->index()
+#6 C:\xampp\htdocs\puskessoscgt\vendor\codeigniter4\framework\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Inovasi))
+#7 C:\xampp\htdocs\puskessoscgt\vendor\codeigniter4\framework\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\puskessoscgt\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 C:\xampp\htdocs\puskessoscgt\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#10 {main}
+CRITICAL - 2022-07-14 01:59:26 --> Undefined variable: popularcil
+#0 C:\xampp\htdocs\puskessoscgt\app\Views\inovasi.php(269): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'C:\\xampp\\htdocs...', 269, Array)
+#1 C:\xampp\htdocs\puskessoscgt\vendor\codeigniter4\framework\system\View\View.php(210): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\puskessoscgt\vendor\codeigniter4\framework\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\puskessoscgt\vendor\codeigniter4\framework\system\Common.php(1089): CodeIgniter\View\View->render('inovasi', Array, true)
+#4 C:\xampp\htdocs\puskessoscgt\app\Controllers\Inovasi.php(36): view('inovasi', Array)
+#5 C:\xampp\htdocs\puskessoscgt\vendor\codeigniter4\framework\system\CodeIgniter.php(832): App\Controllers\Inovasi->index()
+#6 C:\xampp\htdocs\puskessoscgt\vendor\codeigniter4\framework\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Inovasi))
+#7 C:\xampp\htdocs\puskessoscgt\vendor\codeigniter4\framework\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\puskessoscgt\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 C:\xampp\htdocs\puskessoscgt\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#10 {main}
+CRITICAL - 2022-07-14 01:59:43 --> Undefined variable: popularcil
+#0 C:\xampp\htdocs\puskessoscgt\app\Views\inovasi.php(269): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'C:\\xampp\\htdocs...', 269, Array)
+#1 C:\xampp\htdocs\puskessoscgt\vendor\codeigniter4\framework\system\View\View.php(210): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\puskessoscgt\vendor\codeigniter4\framework\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\puskessoscgt\vendor\codeigniter4\framework\system\Common.php(1089): CodeIgniter\View\View->render('inovasi', Array, true)
+#4 C:\xampp\htdocs\puskessoscgt\app\Controllers\Inovasi.php(36): view('inovasi', Array)
+#5 C:\xampp\htdocs\puskessoscgt\vendor\codeigniter4\framework\system\CodeIgniter.php(832): App\Controllers\Inovasi->index()
+#6 C:\xampp\htdocs\puskessoscgt\vendor\codeigniter4\framework\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Inovasi))
+#7 C:\xampp\htdocs\puskessoscgt\vendor\codeigniter4\framework\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\puskessoscgt\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 C:\xampp\htdocs\puskessoscgt\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#10 {main}

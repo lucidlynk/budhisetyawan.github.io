@@ -1,0 +1,16 @@
+CRITICAL - 2022-05-31 01:38:40 --> Undefined property: App\Controllers\Ppks::$usulkisModel
+#0 C:\xampp\htdocs\puskessoscgt\app\Controllers\Ppks.php(77): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined prope...', 'C:\\xampp\\htdocs...', 77, Array)
+#1 C:\xampp\htdocs\puskessoscgt\vendor\codeigniter4\framework\system\CodeIgniter.php(832): App\Controllers\Ppks->import()
+#2 C:\xampp\htdocs\puskessoscgt\vendor\codeigniter4\framework\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Ppks))
+#3 C:\xampp\htdocs\puskessoscgt\vendor\codeigniter4\framework\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\puskessoscgt\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp\htdocs\puskessoscgt\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#6 {main}
+CRITICAL - 2022-05-31 01:42:28 --> Call to undefined method App\Models\PmksModel::cekdata
+#0 C:\xampp\htdocs\puskessoscgt\app\Controllers\Ppks.php(77): CodeIgniter\Model->__call('cekdata', Array)
+#1 C:\xampp\htdocs\puskessoscgt\vendor\codeigniter4\framework\system\CodeIgniter.php(832): App\Controllers\Ppks->import()
+#2 C:\xampp\htdocs\puskessoscgt\vendor\codeigniter4\framework\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Ppks))
+#3 C:\xampp\htdocs\puskessoscgt\vendor\codeigniter4\framework\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\puskessoscgt\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp\htdocs\puskessoscgt\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#6 {main}

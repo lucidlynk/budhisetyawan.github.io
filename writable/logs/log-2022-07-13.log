@@ -1,0 +1,210 @@
+ERROR - 2022-07-13 20:04:05 --> Error connecting to the database: No connection could be made because the target machine actively refused it.
+
+CRITICAL - 2022-07-13 20:04:05 --> Unable to connect to the database.
+Main connection [MySQLi]: No connection could be made because the target machine actively refused it.
+
+#0 C:\xampp\htdocs\puskessoscgt\vendor\codeigniter4\framework\system\Database\BaseConnection.php(577): CodeIgniter\Database\BaseConnection->initialize()
+#1 C:\xampp\htdocs\puskessoscgt\vendor\codeigniter4\framework\system\Database\BaseBuilder.php(1455): CodeIgniter\Database\BaseConnection->query('SELECT `image`,...', Array, false)
+#2 C:\xampp\htdocs\puskessoscgt\app\Controllers\Home.php(24): CodeIgniter\Database\BaseBuilder->get()
+#3 C:\xampp\htdocs\puskessoscgt\vendor\codeigniter4\framework\system\CodeIgniter.php(832): App\Controllers\Home->index()
+#4 C:\xampp\htdocs\puskessoscgt\vendor\codeigniter4\framework\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#5 C:\xampp\htdocs\puskessoscgt\vendor\codeigniter4\framework\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\puskessoscgt\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 C:\xampp\htdocs\puskessoscgt\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#8 {main}
+ERROR - 2022-07-13 20:59:20 --> Unknown column 'gambar' in 'field list'
+CRITICAL - 2022-07-13 20:59:20 --> Unknown column 'gambar' in 'field list'
+#0 C:\xampp\htdocs\puskessoscgt\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php(292): mysqli->query('SELECT `judul`,...', 0)
+#1 C:\xampp\htdocs\puskessoscgt\vendor\codeigniter4\framework\system\Database\BaseConnection.php(670): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `judul`,...')
+#2 C:\xampp\htdocs\puskessoscgt\vendor\codeigniter4\framework\system\Database\BaseConnection.php(598): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `judul`,...')
+#3 C:\xampp\htdocs\puskessoscgt\vendor\codeigniter4\framework\system\Database\BaseBuilder.php(1455): CodeIgniter\Database\BaseConnection->query('SELECT `judul`,...', Array, false)
+#4 C:\xampp\htdocs\puskessoscgt\app\Controllers\Inovasi.php(21): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\xampp\htdocs\puskessoscgt\vendor\codeigniter4\framework\system\CodeIgniter.php(832): App\Controllers\Inovasi->index()
+#6 C:\xampp\htdocs\puskessoscgt\vendor\codeigniter4\framework\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Inovasi))
+#7 C:\xampp\htdocs\puskessoscgt\vendor\codeigniter4\framework\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\puskessoscgt\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 C:\xampp\htdocs\puskessoscgt\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#10 {main}
+CRITICAL - 2022-07-13 21:21:17 --> Cannot use object of type stdClass as array
+#0 C:\xampp\htdocs\puskessoscgt\vendor\codeigniter4\framework\system\View\View.php(210): include()
+#1 C:\xampp\htdocs\puskessoscgt\vendor\codeigniter4\framework\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#2 C:\xampp\htdocs\puskessoscgt\vendor\codeigniter4\framework\system\Common.php(1089): CodeIgniter\View\View->render('inovasi', Array, true)
+#3 C:\xampp\htdocs\puskessoscgt\app\Controllers\Inovasi.php(29): view('inovasi', Array)
+#4 C:\xampp\htdocs\puskessoscgt\vendor\codeigniter4\framework\system\CodeIgniter.php(832): App\Controllers\Inovasi->index()
+#5 C:\xampp\htdocs\puskessoscgt\vendor\codeigniter4\framework\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Inovasi))
+#6 C:\xampp\htdocs\puskessoscgt\vendor\codeigniter4\framework\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\xampp\htdocs\puskessoscgt\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#8 C:\xampp\htdocs\puskessoscgt\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#9 {main}
+CRITICAL - 2022-07-13 21:22:46 --> Cannot use object of type stdClass as array
+#0 C:\xampp\htdocs\puskessoscgt\vendor\codeigniter4\framework\system\View\View.php(210): include()
+#1 C:\xampp\htdocs\puskessoscgt\vendor\codeigniter4\framework\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#2 C:\xampp\htdocs\puskessoscgt\vendor\codeigniter4\framework\system\Common.php(1089): CodeIgniter\View\View->render('inovasi', Array, true)
+#3 C:\xampp\htdocs\puskessoscgt\app\Controllers\Inovasi.php(29): view('inovasi', Array)
+#4 C:\xampp\htdocs\puskessoscgt\vendor\codeigniter4\framework\system\CodeIgniter.php(832): App\Controllers\Inovasi->index()
+#5 C:\xampp\htdocs\puskessoscgt\vendor\codeigniter4\framework\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Inovasi))
+#6 C:\xampp\htdocs\puskessoscgt\vendor\codeigniter4\framework\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\xampp\htdocs\puskessoscgt\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#8 C:\xampp\htdocs\puskessoscgt\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#9 {main}
+CRITICAL - 2022-07-13 21:25:34 --> Cannot use object of type stdClass as array
+#0 C:\xampp\htdocs\puskessoscgt\vendor\codeigniter4\framework\system\View\View.php(210): include()
+#1 C:\xampp\htdocs\puskessoscgt\vendor\codeigniter4\framework\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#2 C:\xampp\htdocs\puskessoscgt\vendor\codeigniter4\framework\system\Common.php(1089): CodeIgniter\View\View->render('inovasi', Array, true)
+#3 C:\xampp\htdocs\puskessoscgt\app\Controllers\Inovasi.php(29): view('inovasi', Array)
+#4 C:\xampp\htdocs\puskessoscgt\vendor\codeigniter4\framework\system\CodeIgniter.php(832): App\Controllers\Inovasi->index()
+#5 C:\xampp\htdocs\puskessoscgt\vendor\codeigniter4\framework\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Inovasi))
+#6 C:\xampp\htdocs\puskessoscgt\vendor\codeigniter4\framework\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\xampp\htdocs\puskessoscgt\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#8 C:\xampp\htdocs\puskessoscgt\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#9 {main}
+CRITICAL - 2022-07-13 21:26:38 --> Call to a member function result_array() on array
+#0 C:\xampp\htdocs\puskessoscgt\vendor\codeigniter4\framework\system\View\View.php(210): include()
+#1 C:\xampp\htdocs\puskessoscgt\vendor\codeigniter4\framework\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#2 C:\xampp\htdocs\puskessoscgt\vendor\codeigniter4\framework\system\Common.php(1089): CodeIgniter\View\View->render('inovasi', Array, true)
+#3 C:\xampp\htdocs\puskessoscgt\app\Controllers\Inovasi.php(29): view('inovasi', Array)
+#4 C:\xampp\htdocs\puskessoscgt\vendor\codeigniter4\framework\system\CodeIgniter.php(832): App\Controllers\Inovasi->index()
+#5 C:\xampp\htdocs\puskessoscgt\vendor\codeigniter4\framework\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Inovasi))
+#6 C:\xampp\htdocs\puskessoscgt\vendor\codeigniter4\framework\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\xampp\htdocs\puskessoscgt\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#8 C:\xampp\htdocs\puskessoscgt\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#9 {main}
+CRITICAL - 2022-07-13 21:27:34 --> Call to a member function result_array() on array
+#0 C:\xampp\htdocs\puskessoscgt\vendor\codeigniter4\framework\system\View\View.php(210): include()
+#1 C:\xampp\htdocs\puskessoscgt\vendor\codeigniter4\framework\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#2 C:\xampp\htdocs\puskessoscgt\vendor\codeigniter4\framework\system\Common.php(1089): CodeIgniter\View\View->render('inovasi', Array, true)
+#3 C:\xampp\htdocs\puskessoscgt\app\Controllers\Inovasi.php(29): view('inovasi', Array)
+#4 C:\xampp\htdocs\puskessoscgt\vendor\codeigniter4\framework\system\CodeIgniter.php(832): App\Controllers\Inovasi->index()
+#5 C:\xampp\htdocs\puskessoscgt\vendor\codeigniter4\framework\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Inovasi))
+#6 C:\xampp\htdocs\puskessoscgt\vendor\codeigniter4\framework\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\xampp\htdocs\puskessoscgt\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#8 C:\xampp\htdocs\puskessoscgt\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#9 {main}
+CRITICAL - 2022-07-13 21:27:35 --> Call to a member function result_array() on array
+#0 C:\xampp\htdocs\puskessoscgt\vendor\codeigniter4\framework\system\View\View.php(210): include()
+#1 C:\xampp\htdocs\puskessoscgt\vendor\codeigniter4\framework\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#2 C:\xampp\htdocs\puskessoscgt\vendor\codeigniter4\framework\system\Common.php(1089): CodeIgniter\View\View->render('inovasi', Array, true)
+#3 C:\xampp\htdocs\puskessoscgt\app\Controllers\Inovasi.php(29): view('inovasi', Array)
+#4 C:\xampp\htdocs\puskessoscgt\vendor\codeigniter4\framework\system\CodeIgniter.php(832): App\Controllers\Inovasi->index()
+#5 C:\xampp\htdocs\puskessoscgt\vendor\codeigniter4\framework\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Inovasi))
+#6 C:\xampp\htdocs\puskessoscgt\vendor\codeigniter4\framework\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\xampp\htdocs\puskessoscgt\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#8 C:\xampp\htdocs\puskessoscgt\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#9 {main}
+CRITICAL - 2022-07-13 21:27:36 --> Call to a member function result_array() on array
+#0 C:\xampp\htdocs\puskessoscgt\vendor\codeigniter4\framework\system\View\View.php(210): include()
+#1 C:\xampp\htdocs\puskessoscgt\vendor\codeigniter4\framework\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#2 C:\xampp\htdocs\puskessoscgt\vendor\codeigniter4\framework\system\Common.php(1089): CodeIgniter\View\View->render('inovasi', Array, true)
+#3 C:\xampp\htdocs\puskessoscgt\app\Controllers\Inovasi.php(29): view('inovasi', Array)
+#4 C:\xampp\htdocs\puskessoscgt\vendor\codeigniter4\framework\system\CodeIgniter.php(832): App\Controllers\Inovasi->index()
+#5 C:\xampp\htdocs\puskessoscgt\vendor\codeigniter4\framework\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Inovasi))
+#6 C:\xampp\htdocs\puskessoscgt\vendor\codeigniter4\framework\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\xampp\htdocs\puskessoscgt\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#8 C:\xampp\htdocs\puskessoscgt\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#9 {main}
+CRITICAL - 2022-07-13 21:43:01 --> syntax error, unexpected ')'
+#0 C:\xampp\htdocs\puskessoscgt\vendor\codeigniter4\framework\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#1 C:\xampp\htdocs\puskessoscgt\vendor\codeigniter4\framework\system\Common.php(1089): CodeIgniter\View\View->render('inovasi', Array, true)
+#2 C:\xampp\htdocs\puskessoscgt\app\Controllers\Inovasi.php(29): view('inovasi', Array)
+#3 C:\xampp\htdocs\puskessoscgt\vendor\codeigniter4\framework\system\CodeIgniter.php(832): App\Controllers\Inovasi->index()
+#4 C:\xampp\htdocs\puskessoscgt\vendor\codeigniter4\framework\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Inovasi))
+#5 C:\xampp\htdocs\puskessoscgt\vendor\codeigniter4\framework\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\puskessoscgt\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 C:\xampp\htdocs\puskessoscgt\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#8 {main}
+CRITICAL - 2022-07-13 21:43:27 --> syntax error, unexpected ')'
+#0 C:\xampp\htdocs\puskessoscgt\vendor\codeigniter4\framework\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#1 C:\xampp\htdocs\puskessoscgt\vendor\codeigniter4\framework\system\Common.php(1089): CodeIgniter\View\View->render('inovasi', Array, true)
+#2 C:\xampp\htdocs\puskessoscgt\app\Controllers\Inovasi.php(29): view('inovasi', Array)
+#3 C:\xampp\htdocs\puskessoscgt\vendor\codeigniter4\framework\system\CodeIgniter.php(832): App\Controllers\Inovasi->index()
+#4 C:\xampp\htdocs\puskessoscgt\vendor\codeigniter4\framework\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Inovasi))
+#5 C:\xampp\htdocs\puskessoscgt\vendor\codeigniter4\framework\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\puskessoscgt\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 C:\xampp\htdocs\puskessoscgt\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#8 {main}
+CRITICAL - 2022-07-13 21:43:28 --> syntax error, unexpected ')'
+#0 C:\xampp\htdocs\puskessoscgt\vendor\codeigniter4\framework\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#1 C:\xampp\htdocs\puskessoscgt\vendor\codeigniter4\framework\system\Common.php(1089): CodeIgniter\View\View->render('inovasi', Array, true)
+#2 C:\xampp\htdocs\puskessoscgt\app\Controllers\Inovasi.php(29): view('inovasi', Array)
+#3 C:\xampp\htdocs\puskessoscgt\vendor\codeigniter4\framework\system\CodeIgniter.php(832): App\Controllers\Inovasi->index()
+#4 C:\xampp\htdocs\puskessoscgt\vendor\codeigniter4\framework\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Inovasi))
+#5 C:\xampp\htdocs\puskessoscgt\vendor\codeigniter4\framework\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\puskessoscgt\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 C:\xampp\htdocs\puskessoscgt\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#8 {main}
+CRITICAL - 2022-07-13 22:16:06 --> Call to a member function select() on null
+#0 C:\xampp\htdocs\puskessoscgt\app\Controllers\Inovasi.php(24): App\Models\InovasiModel->getAllInovasi()
+#1 C:\xampp\htdocs\puskessoscgt\vendor\codeigniter4\framework\system\CodeIgniter.php(832): App\Controllers\Inovasi->index()
+#2 C:\xampp\htdocs\puskessoscgt\vendor\codeigniter4\framework\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Inovasi))
+#3 C:\xampp\htdocs\puskessoscgt\vendor\codeigniter4\framework\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\puskessoscgt\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp\htdocs\puskessoscgt\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#6 {main}
+ERROR - 2022-07-13 22:33:21 --> You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'ORDER BY tgl DESC' at line 1
+CRITICAL - 2022-07-13 22:33:21 --> You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'ORDER BY tgl DESC' at line 1
+#0 C:\xampp\htdocs\puskessoscgt\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php(292): mysqli->query('SELECT DISTINCT...', 0)
+#1 C:\xampp\htdocs\puskessoscgt\vendor\codeigniter4\framework\system\Database\BaseConnection.php(670): CodeIgniter\Database\MySQLi\Connection->execute('SELECT DISTINCT...')
+#2 C:\xampp\htdocs\puskessoscgt\vendor\codeigniter4\framework\system\Database\BaseConnection.php(598): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT DISTINCT...')
+#3 C:\xampp\htdocs\puskessoscgt\app\Controllers\Inovasi.php(24): CodeIgniter\Database\BaseConnection->query('SELECT DISTINCT...')
+#4 C:\xampp\htdocs\puskessoscgt\vendor\codeigniter4\framework\system\CodeIgniter.php(832): App\Controllers\Inovasi->index()
+#5 C:\xampp\htdocs\puskessoscgt\vendor\codeigniter4\framework\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Inovasi))
+#6 C:\xampp\htdocs\puskessoscgt\vendor\codeigniter4\framework\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\xampp\htdocs\puskessoscgt\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#8 C:\xampp\htdocs\puskessoscgt\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#9 {main}
+ERROR - 2022-07-13 22:34:45 --> You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'DESC' at line 1
+CRITICAL - 2022-07-13 22:34:45 --> You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'DESC' at line 1
+#0 C:\xampp\htdocs\puskessoscgt\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php(292): mysqli->query('SELECT DISTINCT...', 0)
+#1 C:\xampp\htdocs\puskessoscgt\vendor\codeigniter4\framework\system\Database\BaseConnection.php(670): CodeIgniter\Database\MySQLi\Connection->execute('SELECT DISTINCT...')
+#2 C:\xampp\htdocs\puskessoscgt\vendor\codeigniter4\framework\system\Database\BaseConnection.php(598): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT DISTINCT...')
+#3 C:\xampp\htdocs\puskessoscgt\app\Controllers\Inovasi.php(24): CodeIgniter\Database\BaseConnection->query('SELECT DISTINCT...')
+#4 C:\xampp\htdocs\puskessoscgt\vendor\codeigniter4\framework\system\CodeIgniter.php(832): App\Controllers\Inovasi->index()
+#5 C:\xampp\htdocs\puskessoscgt\vendor\codeigniter4\framework\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Inovasi))
+#6 C:\xampp\htdocs\puskessoscgt\vendor\codeigniter4\framework\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\xampp\htdocs\puskessoscgt\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#8 C:\xampp\htdocs\puskessoscgt\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#9 {main}
+CRITICAL - 2022-07-13 23:37:41 --> Trying to get property 'link' of non-object
+#0 C:\xampp\htdocs\puskessoscgt\app\Views\inovasi.php(156): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Trying to get p...', 'C:\\xampp\\htdocs...', 156, Array)
+#1 C:\xampp\htdocs\puskessoscgt\vendor\codeigniter4\framework\system\View\View.php(210): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\puskessoscgt\vendor\codeigniter4\framework\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\puskessoscgt\vendor\codeigniter4\framework\system\Common.php(1089): CodeIgniter\View\View->render('inovasi', Array, true)
+#4 C:\xampp\htdocs\puskessoscgt\app\Controllers\Inovasi.php(35): view('inovasi', Array)
+#5 C:\xampp\htdocs\puskessoscgt\vendor\codeigniter4\framework\system\CodeIgniter.php(832): App\Controllers\Inovasi->index()
+#6 C:\xampp\htdocs\puskessoscgt\vendor\codeigniter4\framework\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Inovasi))
+#7 C:\xampp\htdocs\puskessoscgt\vendor\codeigniter4\framework\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\puskessoscgt\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 C:\xampp\htdocs\puskessoscgt\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#10 {main}
+CRITICAL - 2022-07-13 23:47:57 --> Call to undefined method App\Models\InovasiModel::order_by
+#0 C:\xampp\htdocs\puskessoscgt\app\Controllers\Inovasi.php(26): CodeIgniter\Model->__call('order_by', Array)
+#1 C:\xampp\htdocs\puskessoscgt\vendor\codeigniter4\framework\system\CodeIgniter.php(832): App\Controllers\Inovasi->index()
+#2 C:\xampp\htdocs\puskessoscgt\vendor\codeigniter4\framework\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Inovasi))
+#3 C:\xampp\htdocs\puskessoscgt\vendor\codeigniter4\framework\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\puskessoscgt\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp\htdocs\puskessoscgt\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#6 {main}
+CRITICAL - 2022-07-13 23:50:29 --> Argument 3 passed to CodeIgniter\BaseModel::paginate() must be of the type int or null, string given, called in C:\xampp\htdocs\puskessoscgt\app\Controllers\Inovasi.php on line 26
+#0 C:\xampp\htdocs\puskessoscgt\app\Controllers\Inovasi.php(26): CodeIgniter\BaseModel->paginate(5, 'tgl', 'ASC')
+#1 C:\xampp\htdocs\puskessoscgt\vendor\codeigniter4\framework\system\CodeIgniter.php(832): App\Controllers\Inovasi->index()
+#2 C:\xampp\htdocs\puskessoscgt\vendor\codeigniter4\framework\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Inovasi))
+#3 C:\xampp\htdocs\puskessoscgt\vendor\codeigniter4\framework\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\puskessoscgt\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp\htdocs\puskessoscgt\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#6 {main}
+CRITICAL - 2022-07-13 23:52:39 --> Call to undefined method App\Models\InovasiModel::getAll
+#0 C:\xampp\htdocs\puskessoscgt\app\Controllers\Inovasi.php(26): CodeIgniter\Model->__call('getAll', Array)
+#1 C:\xampp\htdocs\puskessoscgt\vendor\codeigniter4\framework\system\CodeIgniter.php(832): App\Controllers\Inovasi->index()
+#2 C:\xampp\htdocs\puskessoscgt\vendor\codeigniter4\framework\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Inovasi))
+#3 C:\xampp\htdocs\puskessoscgt\vendor\codeigniter4\framework\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\puskessoscgt\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp\htdocs\puskessoscgt\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#6 {main}
+CRITICAL - 2022-07-13 23:55:13 --> Call to undefined method App\Models\InovasiModel::order_by
+#0 C:\xampp\htdocs\puskessoscgt\app\Controllers\Inovasi.php(26): CodeIgniter\Model->__call('order_by', Array)
+#1 C:\xampp\htdocs\puskessoscgt\vendor\codeigniter4\framework\system\CodeIgniter.php(832): App\Controllers\Inovasi->index()
+#2 C:\xampp\htdocs\puskessoscgt\vendor\codeigniter4\framework\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Inovasi))
+#3 C:\xampp\htdocs\puskessoscgt\vendor\codeigniter4\framework\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\puskessoscgt\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp\htdocs\puskessoscgt\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#6 {main}

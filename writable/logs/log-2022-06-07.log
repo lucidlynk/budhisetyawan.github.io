@@ -1,0 +1,28 @@
+CRITICAL - 2022-06-07 09:27:58 --> Cannot use object of type stdClass as array
+#0 C:\xampp\htdocs\puskessoscgt\vendor\codeigniter4\framework\system\View\View.php(210): include()
+#1 C:\xampp\htdocs\puskessoscgt\vendor\codeigniter4\framework\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#2 C:\xampp\htdocs\puskessoscgt\vendor\codeigniter4\framework\system\Common.php(1089): CodeIgniter\View\View->render('ppks/data', Array, true)
+#3 C:\xampp\htdocs\puskessoscgt\app\Controllers\Ppks.php(319): view('ppks/data', Array)
+#4 C:\xampp\htdocs\puskessoscgt\vendor\codeigniter4\framework\system\CodeIgniter.php(832): App\Controllers\Ppks->tampil()
+#5 C:\xampp\htdocs\puskessoscgt\vendor\codeigniter4\framework\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Ppks))
+#6 C:\xampp\htdocs\puskessoscgt\vendor\codeigniter4\framework\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\xampp\htdocs\puskessoscgt\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#8 C:\xampp\htdocs\puskessoscgt\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#9 {main}
+CRITICAL - 2022-06-07 09:53:10 --> Trying to get property 'id' of non-object
+#0 C:\xampp\htdocs\puskessoscgt\app\Views\template\sidebar.php(41): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Trying to get p...', 'C:\\xampp\\htdocs...', 41, Array)
+#1 C:\xampp\htdocs\puskessoscgt\vendor\codeigniter4\framework\system\View\View.php(210): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\puskessoscgt\vendor\codeigniter4\framework\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\puskessoscgt\vendor\codeigniter4\framework\system\View\View.php(424): CodeIgniter\View\View->render('template/sideba...', NULL, true)
+#4 C:\xampp\htdocs\puskessoscgt\app\Views\template\index.php(18): CodeIgniter\View\View->include('template/sideba...')
+#5 C:\xampp\htdocs\puskessoscgt\vendor\codeigniter4\framework\system\View\View.php(210): include('C:\\xampp\\htdocs...')
+#6 C:\xampp\htdocs\puskessoscgt\vendor\codeigniter4\framework\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#7 C:\xampp\htdocs\puskessoscgt\vendor\codeigniter4\framework\system\View\View.php(226): CodeIgniter\View\View->render('template/index', Array, true)
+#8 C:\xampp\htdocs\puskessoscgt\vendor\codeigniter4\framework\system\Common.php(1089): CodeIgniter\View\View->render('kis/index', Array, true)
+#9 C:\xampp\htdocs\puskessoscgt\app\Controllers\Kis.php(27): view('kis/index', Array)
+#10 C:\xampp\htdocs\puskessoscgt\vendor\codeigniter4\framework\system\CodeIgniter.php(832): App\Controllers\Kis->index()
+#11 C:\xampp\htdocs\puskessoscgt\vendor\codeigniter4\framework\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Kis))
+#12 C:\xampp\htdocs\puskessoscgt\vendor\codeigniter4\framework\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#13 C:\xampp\htdocs\puskessoscgt\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#14 C:\xampp\htdocs\puskessoscgt\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#15 {main}
