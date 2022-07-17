@@ -97,7 +97,7 @@
                         <h6 class="collapse-header">PPKS:</h6>
                         <a class="collapse-item" href="/ppks/data/">Data PPKS</a>
                         <a class="collapse-item" href="<?= base_url('/ppks'); ?>">Data Usulan</a>
-                        <?php if(in_groups('admin')): ?>
+                        <?php if(in_groups('admin')||in_groups('user')): ?>
                         <a class="collapse-item" href="<?= base_url('/ppks/rekap'); ?>">Rekap Data PPKS</a>
                         <?php endif; ?>
                     </div>
