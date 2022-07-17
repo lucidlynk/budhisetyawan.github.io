@@ -106,7 +106,7 @@
                 </div>
             </li>
             <!-- Divider -->
-            
+            <hr class="sidebar-divider">
 
             <!-- Logout -->
             <!-- <li class="nav-item">
