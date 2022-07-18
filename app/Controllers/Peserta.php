@@ -41,13 +41,13 @@ class Peserta extends BaseController
         return view('program/hasil',$data);
     }
 
-    public function input()
+    public function dtks()
     {
         $data=[
-            'tittle' => 'Kategori',
-            'validation'=> \Config\Services::validation() 
+            'tittle' => 'Disabiltas',
+            'func' => 'dtkssearch'
         ];
-        return view('kis/FormView',$data);
+        return view('program/dtks',$data);
     }
 
     public function import()
