@@ -34,6 +34,7 @@ $routes->setAutoRoute(true);
 $routes->get('/', 'Home::index');
 //$routes->get('/register', 'Home::index');
 $routes->get('/disabilitas', 'Peserta::disabilitas');
+$routes->get('/dtks', 'Peserta::dtks');
 $routes->get('/dashboard', 'Dashboard::index',['filter'=>'role:admin,user']);
 $routes->get('/dashboard/index', 'Dashboard::index',['filter'=>'role:admin,user']);
 $routes->get('/adm', 'Adm::index',['filter'=>'role:admin']);
