@@ -44,7 +44,7 @@ class Peserta extends BaseController
     public function dtks()
     {
         $data=[
-            'tittle' => 'Disabiltas',
+            'tittle' => 'DTKS',
             'func' => 'dtkssearch'
         ];
         return view('program/dtks',$data);
