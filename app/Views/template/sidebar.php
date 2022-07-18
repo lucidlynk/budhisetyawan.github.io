@@ -168,6 +168,16 @@
                 <button class="rounded-circle border-0" id="sidebarToggle"></button>
             </div>
             <?php endif; ?>
+            <!-- Divider -->
+            <hr class="sidebar-divider my-0">
+            <?php if( in_groups('admin')): ?>
+            <li class="nav-item">
+                <a class="nav-link" href="/disabilitas">
+                    <i class="fas fa-users"></i>
+                    <span>Disabilitas</span>
+                </a>
+            </li>      
+            <?php endif; ?>
             
 
         </ul>
