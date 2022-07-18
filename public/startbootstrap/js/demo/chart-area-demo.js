@@ -32,7 +32,7 @@ var ctx = document.getElementById("myAreaChart");
 var myLineChart = new Chart(ctx, {
   type: "line",
   data: {
-    labels: ["Jan", "Feb", "Mar", "Apr", "May"],
+    labels: ["Jan", "Feb", "Mar", "Apr", "May","Jun","jul"],
     datasets: [
       {
         label: "Kepesertaan",
@@ -47,7 +47,7 @@ var myLineChart = new Chart(ctx, {
         pointHoverBorderColor: "rgba(78, 115, 223, 1)",
         pointHitRadius: 10,
         pointBorderWidth: 2,
-        data: [240293, 214866, 182064, 143119, 142958],
+        data: [240293, 214866, 182064, 143119, 142958,134461,134098],
       },
     ],
   },
