@@ -101,7 +101,7 @@ chart.render();
               <a href="/kis"><i class="fa fa-id-card-o"></i> KIS APBD</a>
             </li>
             <li>
-              <a href="https://linjamsos.my.id/dtks"><i class="fa fa-file-text"></i> DTKS</a>
+              <a href="/dtks"><i class="fa fa-file-text"></i> DTKS</a>
             </li>
             <li>
               <a href="/disabilitas"><i class="fa fa-wheelchair"></i> Disabilitas</a>
