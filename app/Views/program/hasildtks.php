@@ -28,6 +28,8 @@
                                             <th>NIK</th>
                                             <th>Nama</th>
                                             <th>ID DTKS</th>
+                                            <th>Kecamatan</th>
+                                            <th>Desa</th>
                                         </tr>
                                     </thead>
                                     <tbody>
@@ -37,6 +39,8 @@
                                             <td><?= $d['nik']; ?></td>
                                             <td><?= $d['nama']; ?></td>
                                             <td><?= $d['id_dtks']; ?></td>
+                                            <td><?= $d['kecamatan']; ?></td>
+                                            <td><?= $d['desa']; ?></td>
                                         </tr>
                                         <?php endforeach; ?>
                                     </tbody>
