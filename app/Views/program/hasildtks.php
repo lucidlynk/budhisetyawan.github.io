@@ -27,7 +27,7 @@
                                         <tr>
                                             <th>NIK</th>
                                             <th>Nama</th>
-                                            <th>Jenis</th>
+                                            <th>ID DTKS</th>
                                         </tr>
                                     </thead>
                                     <tbody>
