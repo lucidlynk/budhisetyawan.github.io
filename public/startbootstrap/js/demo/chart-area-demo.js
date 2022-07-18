@@ -32,7 +32,7 @@ var ctx = document.getElementById("myAreaChart");
 var myLineChart = new Chart(ctx, {
   type: "line",
   data: {
-    labels: ["Jan", "Feb", "Mar", "Apr", "May","Jun","jul"],
+    labels: ["Jan", "Feb", "Mar", "Apr", "May","Jun","juli"],
     datasets: [
       {
         label: "Kepesertaan",
