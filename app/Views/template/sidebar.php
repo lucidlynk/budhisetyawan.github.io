@@ -156,11 +156,21 @@
             </li>
             <!-- Divider -->
             <hr class="sidebar-divider my-0">
-            <?php if( in_groups('admin')): ?>
+            <?php if( in_groups('admin')||in_groups('user')): ?>
             <li class="nav-item">
                 <a class="nav-link" href="/disabilitas">
-                    <i class="fas fa-users"></i>
+                    <i class="fab fa-accessible-icon"></i>
                     <span>Disabilitas</span>
+                </a>
+            </li>      
+            <?php endif; ?>
+            <!-- Divider -->
+            <hr class="sidebar-divider my-0">
+            <?php if( in_groups('admin')||in_groups('user')): ?>
+            <li class="nav-item">
+                <a class="nav-link" href="/dtks">
+                    <i class="fas fa-users"></i>
+                    <span>DTKS</span>
                 </a>
             </li>      
             <?php endif; ?>
