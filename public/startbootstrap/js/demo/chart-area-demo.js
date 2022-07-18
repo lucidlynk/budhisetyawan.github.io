@@ -32,7 +32,7 @@ var ctx = document.getElementById("myAreaChart");
 var myLineChart = new Chart(ctx, {
   type: "line",
   data: {
-    labels: ["Jan", "Feb", "Mar", "Apr", "May","Jun","juli"],
+    labels: ["Januari", "Feb", "Mar", "Apr", "May","Jun","juli"],
     datasets: [
       {
         label: "Kepesertaan",
@@ -79,7 +79,7 @@ var myLineChart = new Chart(ctx, {
       yAxes: [
         {
           ticks: {
-            maxTicksLimit: 12,
+            maxTicksLimit: 5,
             padding: 10,
             // Include a dollar sign in the ticks
             callback: function (value, index, values) {
