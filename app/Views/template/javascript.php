@@ -12,7 +12,7 @@
     <script src="/startbootstrap/vendor/chart.js/Chart.min.js"></script>
 
     <!-- Page level custom scripts -->
-    <script src="<?= base_url();?>startbootstrap/js/demo/chart-area-demo.js"></script>
+    <script src="/startbootstrap/js/demo/chart-area-demo.js"></script>
     <script src="/startbootstrap/js/demo/chart-pie-demo.js"></script>
 
     <!-- Page level plugins -->
