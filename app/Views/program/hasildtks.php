@@ -48,7 +48,7 @@
                                             <td><?= $d['dnik']; ?></td>
                                             <td><?= $d['dnama']; ?></td>
                                             <td><?= $d['ddtks']; ?></td>
-                                            <td><?= $pkh; ?><br><?= $d['ptahap']; ?></td>
+                                            <td><?= $pkh; ?></td>
                                             <td><?= $d['dkec']; ?></td>
                                             <td><?= $d['ddesa']; ?></td>
                                         </tr>
