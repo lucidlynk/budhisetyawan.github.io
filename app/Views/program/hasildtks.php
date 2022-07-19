@@ -28,6 +28,7 @@
                                             <th>NIK</th>
                                             <th>Nama</th>
                                             <th>ID DTKS</th>
+                                            <th>PKH</th>
                                             <th>Kecamatan</th>
                                             <th>Desa</th>
                                         </tr>
@@ -35,12 +36,21 @@
                                     <tbody>
                                         <!-- creat foreach $tampil -->
                                         <?php foreach($tampil as $d): ?>
+                                        <?php if(!empty($d['pnama'])) {
+                                            $pkh='Ya';
+                                        }else{
+                                            $pkh='Tidak';
+                                        }; 
+                                        
+                                        ?>
+                                            
                                         <tr>
-                                            <td><?= $d['nik']; ?></td>
-                                            <td><?= $d['nama']; ?></td>
-                                            <td><?= $d['id_dtks']; ?></td>
-                                            <td><?= $d['kecamatan']; ?></td>
-                                            <td><?= $d['desa']; ?></td>
+                                            <td><?= $d['dnik']; ?></td>
+                                            <td><?= $d['dnama']; ?></td>
+                                            <td><?= $d['ddtks']; ?></td>
+                                            <td><?= $pkh; ?></td>
+                                            <td><?= $d['dkec']; ?></td>
+                                            <td><?= $d['ddesa']; ?></td>
                                         </tr>
                                         <?php endforeach; ?>
                                     </tbody>
