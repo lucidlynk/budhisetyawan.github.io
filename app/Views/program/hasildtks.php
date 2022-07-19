@@ -29,6 +29,7 @@
                                             <th>Nama</th>
                                             <th>ID DTKS</th>
                                             <th>PKH</th>
+                                            <th>PBI APBN</th>
                                             <th>Kecamatan</th>
                                             <th>Desa</th>
                                         </tr>
@@ -49,6 +50,7 @@
                                             <td><?= $d['dnama']; ?></td>
                                             <td><?= $d['ddtks']; ?></td>
                                             <td><?= $pkh; ?><br><?= $d['ptahap']; ?></td>
+                                            <td><?= $d['pbi']; ?></td>
                                             <td><?= $d['dkec']; ?></td>
                                             <td><?= $d['ddesa']; ?></td>
                                         </tr>
