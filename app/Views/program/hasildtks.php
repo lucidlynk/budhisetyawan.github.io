@@ -43,17 +43,7 @@
                                             $pkh='Ya';
                                         }else{
                                             $pkh='Tidak';
-                                        }; 
-                                        if(($d['dbppkm'])!='TIDAK') {
-                                            $bpnt='Ya';
-                                        }else{
-                                            $bpnt='Tidak';
-                                        }; 
-                                        if(($d['dbppkm'])!='TIDAK') {
-                                            $ppkm='Ya';
-                                        }else{
-                                            $ppkm='Tidak';
-                                        }; 
+                                        };
                                         ?>
                                             
                                         <tr>
@@ -61,8 +51,8 @@
                                             <td><?= $d['dnama']; ?></td>
                                             <td><?= $d['ddtks']; ?></td>
                                             <td><?= $pkh; ?><br><?= $d['ptahap']; ?></td>
-                                            <td><?= $bpnt; ?><br><?= $d['dbpnt']; ?></td>
-                                            <td><?= $ppkm; ?><br><?= $d['dbppkm']; ?></td>
+                                            <td><?= $d['dbpnt']; ?></td>
+                                            <td><?= $d['dbppkm']; ?></td>
                                             <td><?= $d['pbi']; ?></td>
                                             <td><?= $d['dkec']; ?></td>
                                             <td><?= $d['ddesa']; ?></td>
