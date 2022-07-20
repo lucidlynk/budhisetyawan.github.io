@@ -71,9 +71,6 @@
                     <div class="bg-white py-2 collapse-inner rounded">
                         <h6 class="collapse-header">Kepesertaan:</h6>
                         <a class="collapse-item" href="/menu">Headline</a>
-                        <a class="collapse-item" href="/kis/apbn">KIS APBN</a>
-                        <a class="collapse-item" href="/kis/input">PESERTA BARU</a>
-                        <a class="collapse-item" href="/kis/usul">DATA USULAN KIS</a>
                     </div>
                 </div>
             </li>
