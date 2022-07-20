@@ -58,7 +58,7 @@ class Peserta extends BaseController
             'tittle' => 'DTKS'
         ];
         // $q = $this->db->query("SELECT * FROM dtks where nik={$id};");
-        $q = $this->db->query("SELECT dtks.nik AS dnik,dtks.id_dtks AS ddtks, dtks.nama AS dnama,pkh.nama AS pnama,tahap AS ptahap,dtks.kecamatan AS dkec,dtks.desa AS ddesa,pbi FROM dtks LEFT JOIN pkh ON dtks.nik=pkh.nik where dtks.nik={$id};");
+        $q = $this->db->query("SELECT dtks.nik AS dnik,dtks.id_dtks AS ddtks, dtks.nama AS dnama,pkh.nama AS pnama,tahap AS ptahap,dtks.kecamatan AS dkec,dtks.desa AS ddesa,pbi,dtks.bpnt as dbpnt,dtks.bpntppkm as dbppkm FROM dtks LEFT JOIN pkh ON dtks.nik=pkh.nik where dtks.nik={$id};");
         $data['tampil'] = $q->getResultArray();
         // dd($data);
         return view('program/hasildtks',$data);

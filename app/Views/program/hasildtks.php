@@ -29,6 +29,8 @@
                                             <th>Nama</th>
                                             <th>ID DTKS</th>
                                             <th>PKH</th>
+                                            <th>BPNT</th>
+                                            <th>BPNT PPKM</th>
                                             <th>PBI APBN</th>
                                             <th>Kecamatan</th>
                                             <th>Desa</th>
@@ -42,7 +44,16 @@
                                         }else{
                                             $pkh='Tidak';
                                         }; 
-                                        
+                                        if(!empty($d['dbpnt'])) {
+                                            $bpnt='Ya';
+                                        }else{
+                                            $bpnt='Tidak';
+                                        }; 
+                                        if(!empty($d['dbppkm'])) {
+                                            $ppkm='Ya';
+                                        }else{
+                                            $ppkm='Tidak';
+                                        }; 
                                         ?>
                                             
                                         <tr>
@@ -50,6 +61,8 @@
                                             <td><?= $d['dnama']; ?></td>
                                             <td><?= $d['ddtks']; ?></td>
                                             <td><?= $pkh; ?><br><?= $d['ptahap']; ?></td>
+                                            <td><?= $bpnt; ?><br><?= $d['dbpnt']; ?></td>
+                                            <td><?= $ppkm; ?><br><?= $d['dbppkm']; ?></td>
                                             <td><?= $d['pbi']; ?></td>
                                             <td><?= $d['dkec']; ?></td>
                                             <td><?= $d['ddesa']; ?></td>
