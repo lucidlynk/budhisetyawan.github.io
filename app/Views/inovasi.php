@@ -498,17 +498,17 @@
 
               <div class="clearfix"></div>
 
-              <div class="side-widget">
+              <!-- <div class="side-widget">
                 <h4><i class="fa fa-instagram"></i> &nbsp;Instagram</h4>
                 <ul class="instagram-lite"></ul>
-              </div>
+              </div> -->
 
-              <div class="clearfix"></div>
+              <!-- <div class="clearfix"></div> -->
 
-              <div class="side-widget">
+              <!-- <div class="side-widget">
                 <h4>Tweets</h4>
                 <div id="tweecool"></div>
-              </div>
+              </div> -->
             </aside>
           </div>
         </div>
