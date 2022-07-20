@@ -107,11 +107,11 @@ chart.render();
               <a href="/disabilitas"><i class="fa fa-wheelchair"></i> Disabilitas</a>
             </li>
             <li>
-              <a href="https://cekbansos.linjamsos.my.id/cek.php"><i class="fa fa-file-text"></i> Cek Bansos</a>
+              <a href="/dtks"><i class="fa fa-file-text"></i> Cek Bansos</a>
             </li>
-            <li>
+            <!-- <li>
               <a href="https://linjamsos.my.id/monumen"><i class="fa fa-university"></i> Sejarah Pahlwan</a>
-            </li>
+            </li> -->
             <a href="/dashboard" class="section-btn">Login</a>
           </ul>
         </div>
