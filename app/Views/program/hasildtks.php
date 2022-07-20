@@ -44,12 +44,12 @@
                                         }else{
                                             $pkh='Tidak';
                                         }; 
-                                        if(!empty($d['dbpnt'])) {
+                                        if(($d['dbppkm'])!='TIDAK') {
                                             $bpnt='Ya';
                                         }else{
                                             $bpnt='Tidak';
                                         }; 
-                                        if(!empty($d['dbppkm'])) {
+                                        if(($d['dbppkm'])!='TIDAK') {
                                             $ppkm='Ya';
                                         }else{
                                             $ppkm='Tidak';
