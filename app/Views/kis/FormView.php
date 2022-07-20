@@ -21,6 +21,8 @@
                                 <div class="card-body">
                                     <li>Pengajuan KIS paling lambar tgl 15 setiap bulan</li>
                                     <li>Import Data Excel sesuai format yang ada</li>
+                                    <li>Usulan ada dalam DTKS</li>
+                                    <li>Usulan Proritas adalah masyarakat Fakir miskin yang tergolong (Lansia Sakit Menahun, Disabilitas, ODGJ)</li>
                                     <li>Lampiran berupa file PDF dengan ketentuan (Surat Keterangan Perbekel / Lurah, Pertanggung jawaban Perbekel / Lurah)</li>
                                     <li>Untuk mempercepat proses dan memiminalisir kegagalan proses unggah, pastikan file yang diunggah berisi max. 500 row perfilenya</li>
                                     <li>File yang sebelumnya pernah diunggah, jangan diunggah lagi kecuali file tidak valid yang sudah diperbaiki atau diganti datanya</li>
