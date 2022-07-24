@@ -48,6 +48,8 @@ class InovasiModel extends Model
         $this->db      = \Config\Database::connect();
         $this->builder = $this->db->table('inovasi');
         $this->builder->select('*');
+        // where team is kepahlawanan
+        $this->builder->where('team','Kepahlawanan');
         $this->builder->orderBy('tgl', 'DESC');
         $query = $this->builder->get();
         return $query->getResult();
