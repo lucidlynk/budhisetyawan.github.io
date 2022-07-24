@@ -18,6 +18,7 @@ class Inovasi extends BaseController
     public function index()
     {
         $data['tittle']= 'Puskesos CGT DInsos Hadir';
+        $data['artikel']= 'Articles Dinsos Melawan Lupa';
         // $this->builder->select('judul,tgl,image,link,isi,team');
         
         // $query = $this->builder->get();
@@ -40,6 +41,7 @@ class Inovasi extends BaseController
     public function dinsos_cgt()
     {
         $data['tittle']= 'Puskesos CGT DInsos Hadir';
+        $data['artikel']= 'Articles Dinsos-CGT';
         // $this->builder->select('judul,tgl,image,link,isi,team');
         
         // $query = $this->builder->get();
