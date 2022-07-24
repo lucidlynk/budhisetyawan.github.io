@@ -49,7 +49,7 @@ class InovasiModel extends Model
         $this->builder = $this->db->table('inovasi');
         $this->builder->select('*');
         // where team is kepahlawanan
-        $this->builder->where('team','Kepahlawanan');
+        $this->builder->where('team','kepahlawanan');
         $this->builder->orderBy('tgl', 'DESC');
         $query = $this->builder->get();
         return $query->getResult();
