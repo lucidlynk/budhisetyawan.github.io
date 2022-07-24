@@ -136,7 +136,7 @@
       <div class="inner-content">
         <div class="container">
           <div class="section-head">
-            <h2>A<?= $artikel ?? 'Artikel'; ?></h2>
+            <h2><?= $artikel ?? 'Artikel'; ?></h2>
           </div>
 
           <div class="row">
