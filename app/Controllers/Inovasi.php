@@ -26,7 +26,7 @@ class Inovasi extends BaseController
         $data['tampildata']=$this->inovasiModel->orderBy('tgl','DESC')->paginate(8);
         $data['pager'] = $this->inovasiModel->pager;
         $data['hot']= $this->db->query("SELECT DISTINCT(judul),tgl,image,link,isi,team,youtube FROM inovasi where team='kepahlawanan' AND youtube IS NOT NULL ORDER BY RAND() LIMIT 0, 3; ")->getResult();
-        $data['popular']= $this->db->query("SELECT DISTINCT(judul),tgl,image,link,isi,team,youtube FROM inovasi ORDER where team='kepahlawanan' BY RAND() LIMIT 0, 1; ")->getResult();
+        $data['popular']= $this->db->query("SELECT DISTINCT(judul),tgl,image,link,isi,team,youtube FROM inovasi where team='kepahlawanan' ORDER BY RAND() LIMIT 0, 1; ")->getResult();
         $data['cili']= $this->db->query("SELECT DISTINCT(judul),tgl,image,link,isi,team,youtube FROM inovasi where team='kepahlawanan' ORDER BY RAND() LIMIT 0, 5; ")->getResult();
         // change array to object
         // $data['headline']= $query->getRow();
