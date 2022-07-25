@@ -17,7 +17,7 @@ class ApbdModel extends Model
     protected $allowedFields    = [
         'noka',
         'nik',
-        'nama'
+        'nama','periode','tahun'
     ];
 
     // Dates
@@ -49,6 +49,13 @@ class ApbdModel extends Model
         if($id == false){
             return $this->findAll();
         }
-        return $this->where(['nik'=>$id])->first();
+        //data where periode= JULI and tahun= 2022 AND nik= '123456789'
+        $where = array(
+            'periode' => 'JULI',
+            'tahun' => '2022',
+            'nik' => $id
+        );
+        return $this->asWhere($where)->findAll();
+        // return $this->where(['nik'=>$id])->first();
     }
 }
