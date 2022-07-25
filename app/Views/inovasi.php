@@ -520,7 +520,7 @@
             <div class="row center-content">
               <div class="col-md-2 col-sm-3">
                 <a href="./index.html">
-                  <img src="<?= $logo2 ?? '/img/buleleng.png'; ?>" class="img-responsive" alt="" />
+                  <img src="<?= $logo_footer ?? '/img/buleleng.png'; ?>" class="img-responsive" alt="" />
                 </a>
               </div>
               <!-- <div class="col-md-6 col-sm-4">

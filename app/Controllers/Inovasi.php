@@ -20,6 +20,7 @@ class Inovasi extends BaseController
         $data['tittle']= 'Puskesos CGT DInsos Hadir';
         $data['artikel']= 'Articles Dinsos Melawan Lupa';
         $data['logo']= '/news/img/2222222.png';
+        $data['logo_footer']= '/news/img/2222221.png';
         // $this->builder->select('judul,tgl,image,link,isi,team');
         
         // $query = $this->builder->get();
@@ -43,7 +44,7 @@ class Inovasi extends BaseController
     {
         $data['tittle']= 'Puskesos CGT DInsos Hadir';
         $data['artikel']= 'Articles Dinsos-CGT';
-        $data['logo']= '/img/2222222.png';
+        $data['logo_footer']= '/img/2222222.png';
 
         // $this->builder->select('judul,tgl,image,link,isi,team');
         
