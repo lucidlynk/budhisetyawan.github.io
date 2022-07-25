@@ -43,7 +43,7 @@ class Inovasi extends BaseController
     {
         $data['tittle']= 'Puskesos CGT DInsos Hadir';
         $data['artikel']= 'Articles Dinsos-CGT';
-        $data['logo']= '/img/photo1658710956.jpeg';
+        $data['logo']= '/img/2222222.png';
 
         // $this->builder->select('judul,tgl,image,link,isi,team');
         
