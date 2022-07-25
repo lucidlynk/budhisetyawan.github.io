@@ -40,7 +40,7 @@
                 <span class="icon-bar"></span>
                 <span class="icon-bar"></span>
               </button>
-              <a class="navbar-brand" href="https://dinsos.bulelengkab.go.id"><img src="/news/img/2222222.png" class="img-responsive" alt="" /></a>
+              <a class="navbar-brand" href="https://dinsos.bulelengkab.go.id"><img src="<?= $logo ?? '/img/buleleng.png'; ?>" class="img-responsive" alt="" /></a>
             </div>
             <!-- <div class="search-trigger pull-right"></div>
 
