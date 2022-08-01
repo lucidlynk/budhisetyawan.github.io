@@ -28,6 +28,7 @@
                                             <th>Nomor Kartu</th>
                                             <th>NIK</th>
                                             <th>Nama</th>
+                                            <th>Kepesertaan</th>
                                         </tr>
                                     </thead>
                                     <tbody>
@@ -35,6 +36,7 @@
                                             <td><?= ($apbd)?$apbd->noka:'Data Tidak Ditemukan'; ?></td>
                                             <td><?= ($apbd)?$apbd->nik:'-'; ?></td>
                                             <td><?= ($apbd)?$apbd->nama:'-'; ?></td>
+                                            <td><?= ($apbd)?$apbd->periode:'-'; ?> Tahun: <?= ($apbd)?$apbd->tahun:'-'; ?></td>
                                         </tr>
                                         
                                     </tbody>
