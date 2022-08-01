@@ -36,7 +36,7 @@
                                             <td><?= ($apbd)?$apbd->noka:'Data Tidak Ditemukan'; ?></td>
                                             <td><?= ($apbd)?$apbd->nik:'-'; ?></td>
                                             <td><?= ($apbd)?$apbd->nama:'-'; ?></td>
-                                            <td><?= ($apbd)?$apbd->periode:'-'; ?> Tahun: <?= ($apbd)?$apbd->tahun:'-'; ?></td>
+                                            <td>Bulan: <?= ($apbd)?$apbd->periode:'-'; ?> Tahun: <?= ($apbd)?$apbd->tahun:'-'; ?></td>
                                         </tr>
                                         
                                     </tbody>
