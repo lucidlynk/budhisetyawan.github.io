@@ -50,12 +50,12 @@ class ApbdModel extends Model
             return $this->findAll();
         }
         //data where periode= JULI and tahun= 2022 AND nik= '123456789'
-        $where = array(
-            'periode' => 'JULI',
-            'tahun' => '2022',
-            'nik' => $id
-        );
-        return $this->asWhere($where)->findAll();
-        // return $this->where(['nik'=>$id])->first();
+        // $where = array(
+        //     'periode' => 'JULI',
+        //     'tahun' => '2022',
+        //     'nik' => $id
+        // );
+        // return $this->asWhere($where)->findAll();
+        return $this->where(['nik'=>$id,'periode'=>'JULI','tahun'=>'2022'])->first();
     }
 }
