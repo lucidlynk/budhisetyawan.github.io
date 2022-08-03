@@ -44,8 +44,8 @@
                                 <tr>
                                     <th>Total PPKS</th>
                                     <th><?= $total->total; ?></th>
-                                    <th>Pria</th>
-                                    <th>Wanita</th>
+                                    <th><?= $pria->pria; ?></th>
+                                    <th><?= $wanita->wanita; ?></th>
                                 </tr>
                             </tfoot>
                         </table>

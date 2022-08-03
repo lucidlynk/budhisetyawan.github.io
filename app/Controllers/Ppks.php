@@ -352,6 +352,8 @@ class Ppks extends BaseController
             'tittle' => 'Rekap Data PPKS',
             'tampildata' => $this->pmksModel->getPmksByRekap(),
             'total' => $this->pmksModel->getTotal(),
+            'pria' => $this->pmksModel->getPria(),
+            'wanita' => $this->pmksModel->getWanita(),
             'validation'=> \Config\Services::validation() 
         ];
         // dd($data);

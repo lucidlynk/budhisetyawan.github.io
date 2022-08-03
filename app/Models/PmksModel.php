@@ -71,4 +71,20 @@ class PmksModel extends Model
         $total = $qt->getRow();
         return $total;
     }
+
+    public function getPria()
+    {
+        $this->db      = \Config\Database::connect();
+        $qp = $this->db->query("SELECT COUNT(nik) as pria FROM ppks where jk='1'");
+        $pria = $qp->getRow();
+        return $pria;
+    }
+
+    public function getWanita()
+    {
+        $this->db      = \Config\Database::connect();
+        $qw = $this->db->query("SELECT COUNT(nik) as wanita FROM ppks where jk='2'");
+        $wanita = $qw->getRow();
+        return $wanita;
+    }
 }
