@@ -63,4 +63,12 @@ class PmksModel extends Model
         $dl = $q->getResultArray();
         return $dl;
     }
+
+    public function getTotal()
+    {
+        $this->db      = \Config\Database::connect();
+        $qt = $this->db->query("SELECT COUNT(nik) FROM ppks");
+        $total = $qt->getResultArray();
+        return $total;
+    }
 }

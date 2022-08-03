@@ -40,6 +40,14 @@
                                 </tr>
                             <?php endforeach; ?>
                             </tbody>
+                            <tfoot>
+                                <tr>
+                                    <th>Total PPKS</th>
+                                    <th>Jumlah</th>
+                                    <th>Pria</th>
+                                    <th>Wanita</th>
+                                </tr>
+                            </tfoot>
                         </table>
                         <!-- </form> -->
                             
