@@ -43,7 +43,7 @@
                             <tfoot>
                                 <tr>
                                     <th>Total PPKS</th>
-                                    <th>Jumlah</th>
+                                    <th><?= $total; ?></th>
                                     <th>Pria</th>
                                     <th>Wanita</th>
                                 </tr>

@@ -68,7 +68,7 @@ class PmksModel extends Model
     {
         $this->db      = \Config\Database::connect();
         $qt = $this->db->query("SELECT COUNT(nik) FROM ppks");
-        $total = $qt->getResultArray();
+        $total = $qt;
         return $total;
     }
 }
