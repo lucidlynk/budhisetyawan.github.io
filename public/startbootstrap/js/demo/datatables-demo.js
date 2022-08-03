@@ -14,8 +14,8 @@ $(document).ready(function () {
 
       { extend: "csvHtml5", footer: true },
       { extend: "excelHtml5", footer: true },
-      "print",
-      "copy",
+      { extend: "print", footer: true },
+      { extend: "copyHtml5", footer: true },
     ],
     columnDefs: [
       {
