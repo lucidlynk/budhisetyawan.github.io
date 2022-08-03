@@ -12,8 +12,8 @@ $(document).ready(function () {
         footer: true,
       },
 
-      "csv",
-      "excel",
+      { extend: "csvHtml5", footer: true },
+      { extend: "excelHtml5", footer: true },
       "print",
       "copy",
     ],
