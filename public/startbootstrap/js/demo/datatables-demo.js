@@ -9,6 +9,7 @@ $(document).ready(function () {
         pageSize: "Legal",
         title: "Usulan KIS",
         download: "open",
+        footer: true,
       },
 
       "csv",
