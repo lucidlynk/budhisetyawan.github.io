@@ -67,7 +67,7 @@ class PmksModel extends Model
     public function getTotal()
     {
         $this->db      = \Config\Database::connect();
-        $qt = $this->db->query("SELECT COUNT(nik) FROM ppks");
+        $qt = $this->db->query("SELECT COUNT(nik) as total FROM ppks");
         $total = $qt->getRow();
         return $total;
     }

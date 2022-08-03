@@ -54,6 +54,6 @@ class PpksModel extends Model
         return
         // return $this->db->table('ppks')->where('nik',$nik)
         $this->db->table('ppks')->where($array)
-        ->get()->getRow();
+        ->get()->getRowArray();
    }
 }
