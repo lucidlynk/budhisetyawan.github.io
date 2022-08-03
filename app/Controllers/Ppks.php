@@ -354,7 +354,7 @@ class Ppks extends BaseController
             'total' => $this->pmksModel->getTotal(),
             'validation'=> \Config\Services::validation() 
         ];
-        dd($data);
+        // dd($data);
         return view('ppks/rekap',$data);
     }
 
