@@ -12,13 +12,11 @@ class Dashboard extends BaseController
     }
     public function index()
     {
-        $ap=$this->db->query("SELECT COUNT(noka) as jml FROM apbd WHERE periode='JULI' AND tahun='2022'")->getRow();
-        $kis=number_format($ap, 0, '', '.');
         $data=[
-            'apbd'=>$kis
+            'apbd'=>$this->db->query("SELECT FORMAT( COUNT(noka), 0) as jml FROM apbd WHERE periode='JULI' AND tahun='2022'")->getRow()
 
         ];
-        dd($data);
+        // dd($data);
         return view('dashboard/index',$data);
     }
 }
