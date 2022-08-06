@@ -16,7 +16,7 @@ class Dashboard extends BaseController
             'apbd'=>$this->db->query("SELECT COUNT(noka) as jml FROM apbd WHERE periode='JULI' AND tahun='2022'")->getRow()
 
         ];
-        dd($data);
+        // dd($data);
         return view('dashboard/index',$data);
     }
 }
