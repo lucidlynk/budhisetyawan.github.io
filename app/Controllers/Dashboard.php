@@ -13,7 +13,7 @@ class Dashboard extends BaseController
     public function index()
     {
         $data=[
-            'apbd'=>$this->db->query("SELECT COUNT(noka) FROM apbd WHERE periode='JULI' AND tahun='2022'")->getRow()
+            'apbd'=>$this->db->query("SELECT COUNT(noka) as jml FROM apbd WHERE periode='JULI' AND tahun='2022'")->getRow()
 
         ];
         dd($data);
