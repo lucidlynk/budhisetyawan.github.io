@@ -353,6 +353,9 @@ class Psks extends BaseController
         $data=[
             'tittle' => 'Rekap Data PSKS',
             'tampildata' => $this->ListPsks->getPsksByRekap(),
+            'total' => $this->pmksModel->getTotal(),
+            'pria' => $this->pmksModel->getPria(),
+            'wanita' => $this->pmksModel->getWanita(),
             'validation'=> \Config\Services::validation() 
         ];
         return view('psks/rekap',$data);

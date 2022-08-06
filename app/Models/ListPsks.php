@@ -63,4 +63,28 @@ class ListPsks extends Model
         $dl = $q->getResultArray();
         return $dl;
     }
+
+    public function getTotal()
+    {
+        $this->db      = \Config\Database::connect();
+        $qt = $this->db->query("SELECT COUNT(nik) as total FROM tb_psks");
+        $total = $qt->getRow();
+        return $total;
+    }
+
+    public function getPria()
+    {
+        $this->db      = \Config\Database::connect();
+        $qp = $this->db->query("SELECT COUNT(nik) as pria FROM tb_psks where jk='1'");
+        $pria = $qp->getRow();
+        return $pria;
+    }
+
+    public function getWanita()
+    {
+        $this->db      = \Config\Database::connect();
+        $qw = $this->db->query("SELECT COUNT(nik) as wanita FROM tb_psks where jk='2'");
+        $wanita = $qw->getRow();
+        return $wanita;
+    }
 }
