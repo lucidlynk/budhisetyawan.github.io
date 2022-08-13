@@ -108,7 +108,7 @@
 			text: ""
 		},
 		axisX: {
-			margin: 10,
+			margin: 15,
 			labelPlacement: "inside",
 			tickPlacement: "inside"
 		},
