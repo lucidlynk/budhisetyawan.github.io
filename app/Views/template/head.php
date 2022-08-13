@@ -125,18 +125,16 @@
 			yValueFormatString: "#,###.## jiwa",
 			indexLabel: "{y}",
 			dataPoints: [
-			<?php foreach ($tampildata as $d ) :?>
-			{ label: "<?= $d['nama_pmks']; ?>", y: <?= $d['jumlah']; ?> },
-			// { label: "Sorry - Justin Bieber", y: 2000 },
-			// { label: "Johny Johny Yes Papa", y: 3000 },
-			// { label: "Gangnam Style", y: 4000 },
-			// { label: "Uptown Funk", y: 5000 },
-			// { label: "Masha and the Bear", y: 6000 },
-			// { label: "See You Again", y: 7000 },
-			// { label: "Shape of You", y: 8000 },
-			// { label: "Baby Shark Dance", y: 9000 },
-			// { label: "Despacito", y: 10000 }
-			<?php endforeach; ?>
+			{ label: "Sugar - Maroon 5", y: 2000 },
+			{ label: "Sorry - Justin Bieber", y: 2000 },
+			{ label: "Johny Johny Yes Papa", y: 3000 },
+			{ label: "Gangnam Style", y: 4000 },
+			{ label: "Uptown Funk", y: 5000 },
+			{ label: "Masha and the Bear", y: 6000 },
+			{ label: "See You Again", y: 7000 },
+			{ label: "Shape of You", y: 8000 },
+			{ label: "Baby Shark Dance", y: 9000 },
+			{ label: "Despacito", y: 10000 }
 			]
 		}]
 		});
