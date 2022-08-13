@@ -105,7 +105,7 @@
 		animationEnabled: true,
 		exportEnabled: false,
 		title: {
-			text: "Daftar PMKS"
+			text: ""
 		},
 		axisX: {
 			margin: 0,
@@ -113,7 +113,7 @@
 			tickPlacement: "inside"
 		},
 		axisY2: {
-			title: "Views (in billion)",
+			title: "",
 			titleFontSize: 14,
 			includeZero: true,
 			suffix: "jiwa"
