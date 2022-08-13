@@ -28,126 +28,97 @@
 	?>
     <!-- chart -->
 	<script>
-// window.onload = function () {
+		// window.onload = function () {
 
-// var chart = new CanvasJS.Chart("chartContainer", {
-// 	exportEnabled: true,
-// 	animationEnabled: true,
-// 	title:{
-// 		text: ""
-// 	},
-// 	subtitles: [{
-// 		text: ""
-// 	}], 
-// 	axisX: {
-// 		title: "Kategori"
-// 	},
-// 	axisY: {
-// 		title: "",
-// 		titleFontColor: "#4F81BC",
-// 		lineColor: "#4F81BC",
-// 		labelFontColor: "#4F81BC",
-// 		tickColor: "#4F81BC",
-// 		includeZero: true
-// 	},
-// 	axisY2: {
-// 		title: "",
-// 		titleFontColor: "#C0504E",
-// 		lineColor: "#C0504E",
-// 		labelFontColor: "#C0504E",
-// 		tickColor: "#C0504E",
-// 		includeZero: true
-// 	},
-// 	toolTip: {
-// 		shared: true
-// 	},
-// 	legend: {
-// 		cursor: "pointer",
-// 		itemclick: toggleDataSeries
-// 	},
-// 	data: [{
-// 		type: "column",
-// 		name: "APBN",
-// 		showInLegend: true,      
-// 		yValueFormatString: "#.### Peserta",
-// 		dataPoints: [
-// 			{ label: "Januari",  y: 218987 },
-// 			{ label: "Februari", y: 220117 },
-// 			{ label: "Maret", y: 219271 },
-// 			{ label: "April",  y: 218362 },
-// 			{ label: "Mei",  y: 217365 }
-// 		]
-// 	},
-// 	{
-// 		type: "column",
-// 		name: "APBD",
-// 		axisYType: "secondary",
-// 		showInLegend: true,
-// 		yValueFormatString: "#.### Peserta",
-// 		dataPoints: [
-// 			{ label: "Januari", y: 240293 },
-// 			{ label: "Februari", y: 214866 },
-// 			{ label: "Maret", y: 182064 },
-// 			{ label: "April", y: 143119 },
-// 			{ label: "Mei", y: 142958 }
-// 		]
-// 	}]
-// });
-// chart.render();
-
-// function toggleDataSeries(e) {
-// 	if (typeof (e.dataSeries.visible) === "undefined" || e.dataSeries.visible) {
-// 		e.dataSeries.visible = false;
-// 	} else {
-// 		e.dataSeries.visible = true;
-// 	}
-// 	e.chart.render();
-// }
-
-// }
-		window.onload = function () {
-
-		var chart = new CanvasJS.Chart("chartContainer", {
-		theme: "light1", // "light1", "light2", "dark1"
-		animationEnabled: true,
-		exportEnabled: false,
-		title: {
-			text: ""
-		},
-		axisX: {
-			margin: 15,
-			labelPlacement: "outside",
-			tickPlacement: "inside"
-		},
-		axisY2: {
-			title: "",
-			titleFontSize: 14,
-			includeZero: true,
-			suffix: "jiwa"
-		},
-		data: [{
-			type: "bar",
-			axisYType: "secondary",
-			yValueFormatString: "#,###.## jiwa",
-			indexLabel: "{y}",
-			// create dataPoints array from database
-			dataPoints:<?php echo json_encode($dataPoints, JSON_NUMERIC_CHECK); ?>
-			// [
-			// { label: "Sugar - Maroon 5", y: 2000 },
-			// { label: "Sorry - Justin Bieber", y: 2000 },
-			// { label: "Johny Johny Yes Papa", y: 3000 },
-			// { label: "Gangnam Style", y: 4000 },
-			// { label: "Uptown Funk", y: 5000 },
-			// { label: "Masha and the Bear", y: 6000 },
-			// { label: "See You Again", y: 7000 },
-			// { label: "Shape of You", y: 8000 },
-			// { label: "Baby Shark Dance", y: 9000 },
-			// { label: "Despacito", y: 10000 }
-			// ]
-		}]
-		});
-		chart.render();
+		// var chart = new CanvasJS.Chart("chartContainer", {
+		// theme: "light1", // "light1", "light2", "dark1"
+		// animationEnabled: true,
+		// exportEnabled: false,
+		// title: {
+		// 	text: ""
+		// },
+		// axisX: {
+		// 	margin: 15,
+		// 	labelPlacement: "outside",
+		// 	tickPlacement: "inside"
+		// },
+		// axisY2: {
+		// 	title: "",
+		// 	titleFontSize: 14,
+		// 	includeZero: true,
+		// 	suffix: "jiwa"
+		// },
+		// data: [{
+		// 	type: "bar",
+		// 	axisYType: "secondary",
+		// 	yValueFormatString: "#,###.## jiwa",
+		// 	indexLabel: "{y}",
+		// 	// create dataPoints array from database
+		// 	dataPoints:<?php echo json_encode($dataPoints, JSON_NUMERIC_CHECK); ?>
+		// 	// [
+		// 	// { label: "Sugar - Maroon 5", y: 2000 },
+		// 	// { label: "Sorry - Justin Bieber", y: 2000 },
+		// 	// { label: "Johny Johny Yes Papa", y: 3000 },
+		// 	// { label: "Gangnam Style", y: 4000 },
+		// 	// { label: "Uptown Funk", y: 5000 },
+		// 	// { label: "Masha and the Bear", y: 6000 },
+		// 	// { label: "See You Again", y: 7000 },
+		// 	// { label: "Shape of You", y: 8000 },
+		// 	// { label: "Baby Shark Dance", y: 9000 },
+		// 	// { label: "Despacito", y: 10000 }
+		// 	// ]
+		// }]
+		// });
+		// chart.render();
 		
-		}
+		// }
+		window.onload = function () {
+	
+			var chart = new CanvasJS.Chart("chartContainer", {
+				animationEnabled: true,
+				
+				title:{
+					text:""
+				},
+				axisX:{
+					interval: 1
+				},
+				axisY2:{
+					interlacedColor: "rgba(1,77,101,.2)",
+					gridColor: "rgba(1,77,101,.1)",
+					title: ""
+				},
+				data: [{
+					type: "bar",
+					name: "companies",
+					axisYType: "secondary",
+					color: "#014D65",
+					dataPoints: <?php echo json_encode($dataPoints, JSON_NUMERIC_CHECK); ?>
+					// [
+					// 	{ label: "Sweden", y: 3 },
+					// 	{ y: 7, label: "Taiwan" },
+					// 	{ y: 5, label: "Russia" },
+					// 	{ y: 9, label: "Spain" },
+					// 	{ y: 7, label: "Brazil" },
+					// 	{ y: 7, label: "India" },
+					// 	{ y: 9, label: "Italy" },
+					// 	{ y: 8, label: "Australia" },
+					// 	{ y: 11, label: "Canada" },
+					// 	{ y: 15, label: "South Korea" },
+					// 	{ y: 12, label: "Netherlands" },
+					// 	{ y: 15, label: "Switzerland" },
+					// 	{ y: 25, label: "Britain" },
+					// 	{ y: 28, label: "Germany" },
+					// 	{ y: 29, label: "France" },
+					// 	{ y: 52, label: "Japan" },
+					// 	{ y: 103, label: "China" },
+					// 	{ y: 134, label: "US" }
+					// ]
+				}]
+			});
+			chart.render();
+			
+			}
+
 	</script>
 <!-- chart -->
