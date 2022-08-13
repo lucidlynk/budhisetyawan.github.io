@@ -19,7 +19,13 @@
 	<script src="//cdn.ckeditor.com/4.19.0/full/ckeditor.js"></script>
 
 
-	
+	<?php
+ 
+		$dataPoints = array();
+		foreach ($tampildata as $d ) :
+			array_push($dataPoints, array("label"=> $d['nama_pmks'], "y"=> $d['jumlah']));
+		endforeach;
+	?>
     <!-- chart -->
 	<script>
 // window.onload = function () {
@@ -124,10 +130,9 @@
 			axisYType: "secondary",
 			yValueFormatString: "#,###.## jiwa",
 			indexLabel: "{y}",
-			
-			dataPoints: [
-			<?php foreach ($tampildata as $d ) :?>
-				{ label: "<?= $d['nama_pmks']; ?>", y: <?= $d['jumlah']; ?> },
+			// create dataPoints array from database
+			dataPoints:<?php echo json_encode($dataPoints, JSON_NUMERIC_CHECK); ?>
+			// [
 			// { label: "Sugar - Maroon 5", y: 2000 },
 			// { label: "Sorry - Justin Bieber", y: 2000 },
 			// { label: "Johny Johny Yes Papa", y: 3000 },
@@ -138,9 +143,7 @@
 			// { label: "Shape of You", y: 8000 },
 			// { label: "Baby Shark Dance", y: 9000 },
 			// { label: "Despacito", y: 10000 }
-			<?php endforeach; ?>
-			]
-			
+			// ]
 		}]
 		});
 		chart.render();
