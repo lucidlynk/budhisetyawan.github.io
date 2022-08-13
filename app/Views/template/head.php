@@ -126,7 +126,7 @@
 			indexLabel: "{y}",
 			dataPoints: [
 			<?php foreach ($tampildata as $d ) :?>
-			{ label: <?= $d['nama_pmks']; ?>, y: <?= $d['jumlah']; ?> },
+			{ label: "<?= $d['nama_pmks']; ?>", y: <?= $d['jumlah']; ?> },
 			// { label: "Sorry - Justin Bieber", y: 2000 },
 			// { label: "Johny Johny Yes Papa", y: 3000 },
 			// { label: "Gangnam Style", y: 4000 },
