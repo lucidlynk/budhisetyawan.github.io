@@ -19,7 +19,7 @@ class Dashboard extends BaseController
             'tampildata' => $this->pmksModel->getRekap()
 
         ];
-        dd($data);
+        // dd($data);
         return view('dashboard/index',$data);
     }
 }
