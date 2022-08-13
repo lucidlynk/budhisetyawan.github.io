@@ -211,7 +211,7 @@
                                     <div class="chart-area">
                                         <!-- <canvas id="myAreaChart"></canvas> -->
                                         <!-- <canvas id="chartContainer"></canvas> -->
-                                        <canvas id="myAreaChart" style="height: 100%; width: 100%;"></canvas>
+                                        <canvas id="chartContainer" style="height: 100%; width: 100%;"></canvas>
                                     </div>
                                 </div>
                             </div>

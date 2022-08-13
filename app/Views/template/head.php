@@ -74,7 +74,7 @@
 		// }
 		window.onload = function () {
 	
-			var chart = new CanvasJS.Chart("myAreaChart", {
+			var chart = new CanvasJS.Chart("chartContainer", {
 				animationEnabled: true,
 				
 				title:{
