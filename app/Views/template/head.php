@@ -116,7 +116,7 @@
 		},
 		axisX: {
 			margin: 15,
-			labelPlacement: "inside",
+			labelPlacement: "outside",
 			tickPlacement: "inside"
 		},
 		axisY2: {
