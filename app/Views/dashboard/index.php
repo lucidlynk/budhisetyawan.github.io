@@ -209,9 +209,9 @@
                                 <!-- Card Body -->
                                 <div class="card-body">
                                     <div class="chart-area">
-                                        <!-- <canvas id="myAreaChart"></canvas> -->
+                                        <canvas id="myAreaChart"><div id="chartContainer" style="height: 100%; width: 100%;"></div></canvas>
                                         <!-- <canvas id="chartContainer"></canvas> -->
-                                        <div id="chartContainer" style="height: 100%; width: 100%;"></div>
+                                        
                                     </div>
                                 </div>
                             </div>
