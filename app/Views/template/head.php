@@ -20,12 +20,14 @@
 
 
 	<?php
-	if($tittle=='Dashboard'){
+	
 		$dataPoints = array();
+		if($tittle=='Dashboard'){
 		foreach ($tampildata as $d ) :
 			array_push($dataPoints, array("label"=> $d['nama_pmks'], "y"=> $d['jumlah']));
 		endforeach;
-	}
+		}
+	
 	?>
     <!-- chart -->
 	<script>
