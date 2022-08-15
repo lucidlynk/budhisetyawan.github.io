@@ -16,7 +16,8 @@ class Dashboard extends BaseController
     {
         $data=[
             'apbd'=>$this->db->query("SELECT FORMAT( COUNT(noka), 0) as jml FROM apbd WHERE periode='JULI' AND tahun='2022'")->getRow(),
-            'tampildata' => $this->pmksModel->getRekap()
+            'tampildata' => $this->pmksModel->getRekap(),
+            'tittle' => 'Dashboard'
 
         ];
         // dd($data);
