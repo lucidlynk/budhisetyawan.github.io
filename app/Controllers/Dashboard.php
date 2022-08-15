@@ -15,7 +15,7 @@ class Dashboard extends BaseController
     public function index()
     {
         $data=[
-            'apbd'=>$this->db->query("SELECT FORMAT( COUNT(noka), 0) as jml FROM apbd WHERE periode='JULI' AND tahun='2022'")->getRow(),
+            'apbd'=>$this->db->query("SELECT FORMAT( COUNT(noka), 0) as jml FROM apbd WHERE periode='AGUSTUS' AND tahun='2022'")->getRow(),
             'tampildata' => $this->pmksModel->getRekap(),
             'tittle' => 'Dashboard'
 
