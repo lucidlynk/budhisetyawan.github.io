@@ -56,6 +56,6 @@ class ApbdModel extends Model
         //     'nik' => $id
         // );
         // return $this->asWhere($where)->findAll();
-        return $this->where(['nik'=>$id,'periode'=>'AGUSTUS'])->first();
+        return $this->where(['nik'=>$id,'periode'=>'AGUSTUS','tahun'=>'2022'])->first();
     }
 }
