@@ -51,7 +51,7 @@ class ListPsks extends Model
     public function getPsksByRekap()
     {
         $this->db      = \Config\Database::connect();
-        $q = $this->db->query("SELECT DISTINCT(nama_psks),(SELECT COUNT(nama) FROM tb_psks WHERE tb_psks.id_pks=psks.id_psks) AS jumlah, (SELECT COUNT(jk) FROM tb_psks WHERE tb_psks.id_pks=psks.id_psks AND tb_psks.jk='1') AS Pria, (SELECT COUNT(jk) FROM tb_psks WHERE tb_psks.id_pks=psks.id_psks AND tb_psks.jk='2') AS Wanita FROM psks LEFT JOIN tb_psks ON tb_psks.id_pks=psks.id_psks;");
+        $q = $this->db->query("SELECT DISTINCT(nama_psks),COUNT(nama)AS jumlah,(SELECT COUNT(jk) FROM tb_psks WHERE tb_psks.id_pks=psks.id_psks AND tb_psks.jk='1') AS Pria, (SELECT COUNT(jk) FROM tb_psks WHERE tb_psks.id_pks=psks.id_psks AND tb_psks.jk='2') AS Wanita FROM psks LEFT JOIN tb_psks ON tb_psks.id_pks=psks.id_psks GROUP BY nama_psks ORDER BY nama_psks ASC;");
         $rekap = $q->getResultArray();
         return $rekap;
     }
