@@ -91,7 +91,9 @@ class PmksModel extends Model
     public function getRekap()
     {
         $this->db      = \Config\Database::connect();
-        $q = $this->db->query("SELECT DISTINCT(nama_pmks),(SELECT COUNT(nama) FROM ppks WHERE ppks.id_pmks=pmks.id_pmks) AS jumlah FROM pmks LEFT JOIN ppks ON ppks.id_pmks=pmks.id_pmks ORDER BY jumlah DESC;");
+        $this->db->query('SET SESSION sql_mode = "TRADITIONAL"');
+        $q = $this->db->query("SELECT DISTINCT(nama_pmks),COUNT(nama)AS jumlah FROM pmks LEFT JOIN ppks ON ppks.id_pmks=pmks.id_pmks GROUP BY nama_pmks ORDER BY jumlah DESC;");
+        // $q = $this->db->query("SELECT DISTINCT(nama_pmks),(SELECT COUNT(nama) FROM ppks WHERE ppks.id_pmks=pmks.id_pmks) AS jumlah FROM pmks LEFT JOIN ppks ON ppks.id_pmks=pmks.id_pmks ORDER BY jumlah DESC;");
         $rekap = $q->getResultArray();
         return $rekap;
     }
