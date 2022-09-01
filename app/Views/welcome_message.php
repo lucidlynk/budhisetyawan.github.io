@@ -109,9 +109,9 @@ chart.render();
             <li>
               <a href="/dtks"><i class="fa fa-file-text"></i> Cek Bansos</a>
             </li>
-            <!-- <li>
-              <a href="https://linjamsos.my.id/monumen"><i class="fa fa-university"></i> Sejarah Pahlwan</a>
-            </li> -->
+            <li>
+              <a href="/inovasi"><i class="fa fa-university"></i> Sejarah Pahlwan</a>
+            </li>
             <a href="/dashboard" class="section-btn">Login</a>
           </ul>
         </div>
